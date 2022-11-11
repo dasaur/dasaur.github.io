@@ -1,0 +1,63 @@
+@font-face {
+    font-family: pixel;
+    src: url('VT323-Regular.ttf');
+}
+:root {
+    --yellow: #FCEF00;
+    --scarlet: #D6191D;
+    --violet: #8D1BB1;
+    --mix: #B21A67;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    color: var(--yellow);
+    font-family: pixel;
+    font-size: 50px;
+}
+a {
+    color: white;
+}
+.scarlet {
+    background-color: var(--scarlet);
+}
+.violet {
+    background-color: var(--violet);
+}
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    width: 100%;
+    background-color: var(--mix);
+}
+.title-text {
+    row: 1;
+    text-align: center;
+    padding: 10px;
+}
+.choice {
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+}
+.option {
+    flex: 1;
+    display: flex;
+}
+.option img {
+    width: 260px;
+    height: 56px;
+    margin: auto;
+}
+.has-text {
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    padding: 10px;
+}
