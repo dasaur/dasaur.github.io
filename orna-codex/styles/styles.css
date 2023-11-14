@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Merriweather;
+    src: url('MerriweatherSans-Light.ttf');
+    font-weight: 400;
+}
+
+* {
+    background-color: #000;
+    color: #fff;
+    font-family: Merriweather, Inter, Arial, Helvetica, sans-serif;
+}
+
+table, th, td {
+  border: 1px solid #fff;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+}
