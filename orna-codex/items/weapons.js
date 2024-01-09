@@ -4,10 +4,15 @@ window.onload = loadPage({
         {
             name: 'tierMin',
             f: (codexEntry, filterValue) => filterValue <= codexEntry.tier,
+            label: 'Tier from ',
+            component: () => tierFilter(),
         },
         {
             name: 'tierMax',
             f: (codexEntry, filterValue) => filterValue >= codexEntry.tier,
+            label: ' to ',
+            component: () => tierFilter(),
+            addSeparator: true,
         },
         {
             name: 'canEquip',
@@ -15,10 +20,17 @@ window.onload = loadPage({
                 (filterValue.includes('m') && codexEntry.mage) ||
                 (filterValue.includes('t') && codexEntry.thief) ||
                 (filterValue.includes('s') && codexEntry.summoner),
+            label: 'W/T/M/S',
+            component: () => canEquipChecks(),
+            getComponentValue: getCanEquipChecks,
+            setComponentValue: setCanEquipChecks,
+            addSeparator: true,
         },
         {
             name: 'twoHanded',
             f: (codexEntry, filterValue) => filterValue == codexEntry.twoHanded,
+            label: '2H ',
+            component: () => booleanFilter(),
         },
     ],
     sortOptions : [
@@ -34,6 +46,10 @@ window.onload = loadPage({
             name: 'magic',
             f: (x, y) => (y.magic | 0) - (x.magic | 0) || x.name.localeCompare(y.city),
         },
+        {
+            name: 'adornments',
+            f: (x, y) => (y.adornmentSlots | 0) - (x.adornmentSlots | 0) || x.name.localeCompare(y.city),
+        },
     ],
     columns: [
         {
@@ -47,7 +63,7 @@ window.onload = loadPage({
         {
             name: 'W/T/M/S',
             f: (codexEntry, tableCell) => checks(tableCell,
-                [codexEntry.warrior, codexEntry.mage, codexEntry.thief, codexEntry.summoner]),
+                [codexEntry.warrior, codexEntry.thief, codexEntry.mage, codexEntry.summoner]),
         },
         {
             name: 'Power',
@@ -60,6 +76,10 @@ window.onload = loadPage({
         {
             name: 'Magic',
             f: (codexEntry, tableCell) => number(tableCell, codexEntry.magic),
+        },
+        {
+            name: 'Adornments',
+            f: (codexEntry, tableCell) => number(tableCell, codexEntry.adornmentSlots),
         },
         {
             name: '2H',

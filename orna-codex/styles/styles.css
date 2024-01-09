@@ -24,12 +24,23 @@ body {
   box-sizing: border-box;
 }
 
-.sort {
+.filters, .sort {
   padding: 0 0 10px 0;
 }
 
 label, select {
   padding: 5px;
+}
+
+.filters, .filter, .sort {
+  display: flex;
+  align-items: center;
+}
+
+.vl {
+  margin: 0 1em;
+  height: 100%;
+  border-right: #9A9A9A 2px; /* #EEEEEE */
 }
 
 .table {

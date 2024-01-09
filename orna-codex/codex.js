@@ -1,16 +1,57 @@
+const equipmentClasses = ['w', 't', 'm', 's']
 const sortParam = 'sort'
 
 async function loadPage(config) {
     const page = document.createElement('div')
     page.classList = 'page'
     document.body.appendChild(page)
-    loadFilters(page, config.filters)
+
+    loadFilters(page, config.filters || [])
     loadSort(page, config.sortOptions || [])
     loadTable(page, config)
 }
 
 async function loadFilters(page, filters) {
     if (filters.size == 0) return
+
+    const div = document.createElement('div')
+    div.classList = 'filters'
+
+    filters.forEach(filter => {
+        const filterDiv = document.createElement('div')
+        filterDiv.classList = 'filter'
+
+        const label = document.createElement('label')
+        label.innerHTML = filter.label
+        filterDiv.appendChild(label)
+
+        const component = filter.component()
+        var setComponentValue = filter.setComponentValue
+        if (!setComponentValue)
+            setComponentValue = (component, filterValue) => component.value = filterValue
+        setComponentValue(component, new URLSearchParams(window.location.search).get(filter.name))
+        component.addEventListener('change', function() {
+            var getComponentValue = filter.getComponentValue
+            if (!getComponentValue)
+                getComponentValue = (component) => component.value
+            const value = getComponentValue(this)
+            const params = new URLSearchParams(window.location.search.slice(1))
+            if (value == '')
+                params.delete(filter.name)
+            else
+                params.set(filter.name, value)
+            const redirect = `${window.location.pathname}?${params}${window.location.hash}`
+            window.location.href = redirect
+        })
+        filterDiv.appendChild(component)
+
+        div.appendChild(filterDiv)
+
+        if (filter.addSeparator)
+            div.appendChild(verticalSeparator())
+    })
+
+    page.appendChild(div)
 }
 
 async function loadSort(page, sortOptions) {
@@ -23,17 +64,7 @@ async function loadSort(page, sortOptions) {
     label.innerHTML = 'Sort by '
     div.appendChild(label)
 
-    const select = document.createElement('select')
-    const option = document.createElement('option')
-    option.value = ''
-    option.innerHTML = ''
-    select.appendChild(option)
-    sortOptions.forEach(sortOption => {
-        const option = document.createElement('option')
-        option.value = sortOption.name
-        option.innerHTML = sortOption.name
-        select.appendChild(option)
-    })
+    const select = listFilter(sortOptions.map(sortOption => sortOption.name))
     select.value = new URLSearchParams(window.location.search).get(sortParam) || ''
     select.addEventListener('change', function() {
         const value = this.value
@@ -107,6 +138,81 @@ function createBodyRow(tableBody, codexEntry, columns) {
         tableRow.appendChild(tableCell)
     })
     tableBody.appendChild(tableRow)
+}
+
+function mapFilter(map) {
+    const select = document.createElement('select')
+    const option = document.createElement('option')
+    option.value = ''
+    option.innerHTML = ''
+    select.appendChild(option)
+    map.forEach((value, key, m) => {
+        const option = document.createElement('option')
+        option.value = key
+        option.innerHTML = value
+        select.appendChild(option)
+    })
+    return select
+}
+
+function listFilter(list) {
+    const map = new Map()
+    list.forEach(element => map.set(element, element))
+    return mapFilter(map)
+}
+
+function objectFilter(filter) {
+    const map = new Map()
+    filter.forEach(element => map.set(element.value, element.name))
+    return mapFilter(new Map(Object.entries(filter)))
+}
+
+function tierFilter() {
+    return listFilter([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ])
+}
+
+function canEquipChecks() {
+    const div = document.createElement('div')
+    div.classList = 'canEquip'
+    for (e in equipmentClasses) {
+        const check = document.createElement('input')
+        check.setAttribute('type', 'checkbox')
+        div.appendChild(check)
+    }
+    return div
+}
+
+function getCanEquipChecks(component) {
+    var value = ''
+    for (var i = 0; i < component.children.length; i++) {
+        const check = component.children[i]
+        const canEquip = equipmentClasses[i];
+        if (check.checked)
+            value += canEquip
+    }
+    return value
+}
+
+function setCanEquipChecks(component, filterValue) {
+    filterValue = filterValue || ''
+    for (var i = 0; i < component.children.length; i++) {
+        const check = component.children[i]
+        const canEquip = equipmentClasses[i];
+        const value = filterValue.indexOf(canEquip) >= 0
+        check.checked = value
+    }
+}
+
+function booleanFilter() {
+    return mapFilter(new Map()
+                .set(0, 'N')
+                .set(1, 'Y'))
+}
+
+function verticalSeparator() {
+    var separator = document.createElement('div')
+    separator.classList = 'vl'
+    return separator
 }
 
 function number(tableCell, number) {
