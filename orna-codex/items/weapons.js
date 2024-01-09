@@ -13,7 +13,8 @@ window.onload = loadPage({
             name: 'canEquip',
             f: (codexEntry, filterValue) => (filterValue.includes('w') && codexEntry.warrior) ||
                 (filterValue.includes('m') && codexEntry.mage) ||
-                (filterValue.includes('t') && codexEntry.thief),
+                (filterValue.includes('t') && codexEntry.thief) ||
+                (filterValue.includes('s') && codexEntry.summoner),
         },
         {
             name: 'twoHanded',
@@ -44,8 +45,9 @@ window.onload = loadPage({
             f: (codexEntry, tableCell) => number(tableCell, codexEntry.tier),
         },
         {
-            name: 'W/T/M',
-            f: (codexEntry, tableCell) => checks(tableCell, [codexEntry.warrior, codexEntry.mage, codexEntry.thief]),
+            name: 'W/T/M/S',
+            f: (codexEntry, tableCell) => checks(tableCell,
+                [codexEntry.warrior, codexEntry.mage, codexEntry.thief, codexEntry.summoner]),
         },
         {
             name: 'Power',

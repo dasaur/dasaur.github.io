@@ -10,14 +10,43 @@
     font-family: Merriweather, Inter, Arial, Helvetica, sans-serif;
 }
 
-.sort, label, select, table, th, td {
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.sort {
+  padding: 0 0 10px 0;
+}
+
+label, select {
   padding: 5px;
 }
 
-table, th, td {
-  border: 1px solid #fff;
+.table {
+  flex-grow: 1;
+  overflow-y: auto;
 }
 
 table {
-  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+thead th {
+  position: sticky;
+  top: 0px;
+}
+
+th, td {
+  padding: 5px;
+  border: 1px solid #fff;
 }

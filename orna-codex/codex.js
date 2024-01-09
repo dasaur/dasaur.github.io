@@ -1,16 +1,19 @@
 const sortParam = 'sort'
 
 async function loadPage(config) {
-    if (config.filters)
-        loadFilters(config.filters)
-    loadSort(config.sortOptions || [])
-    loadTable(config)
+    const page = document.createElement('div')
+    page.classList = 'page'
+    document.body.appendChild(page)
+    loadFilters(page, config.filters)
+    loadSort(page, config.sortOptions || [])
+    loadTable(page, config)
 }
 
-async function loadFilters(filters) {
+async function loadFilters(page, filters) {
+    if (filters.size == 0) return
 }
 
-async function loadSort(sortOptions) {
+async function loadSort(page, sortOptions) {
     if (sortOptions.size == 0) return
 
     const div = document.createElement('div')
@@ -44,15 +47,18 @@ async function loadSort(sortOptions) {
     })
     div.appendChild(select)
 
-    document.body.appendChild(div)
+    page.appendChild(div)
 }
 
-async function loadTable(config) {
+async function loadTable(page, config) {
+    const div = document.createElement('div')
+    div.classList = 'table'
     const table = document.createElement('table')
     createHeaderRow(table, config.columns)
     const tableBody = document.createElement('tbody')
     table.appendChild(tableBody)
-    document.body.appendChild(table)
+    div.appendChild(table)
+    page.appendChild(div)
     var codex = await loadCodex(config.url)
     codex = filterCodex(codex, config.filters || [])
     codex = sortCodex(codex, config.sortOptions || [])
