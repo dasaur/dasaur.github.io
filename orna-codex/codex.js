@@ -1,14 +1,50 @@
+const sortParam = 'sort'
 
+async function loadPage(config) {
+    if (config.filters)
+        loadFilters(config.filters)
+    loadSort(config.sortOptions || [])
+    loadTable(config)
+}
 
-function fill(row, obj) {
-    row.appendChild(link(obj.name, obj.url))
-    row.appendChild(number(obj.tier))
-    row.appendChild(check(obj.warrior))
-    row.appendChild(check(obj.mage))
-    row.appendChild(check(obj.thief))
-    row.appendChild(number(obj.attack))
-    row.appendChild(number(obj.magic))
-    row.appendChild(number(obj.attack + obj.magic))
+async function loadFilters(filters) {
+}
+
+async function loadSort(sortOptions) {
+    if (sortOptions.size == 0) return
+
+    const div = document.createElement('div')
+    div.classList = 'sort'
+
+    const label = document.createElement('label')
+    label.innerHTML = 'Sort by '
+    div.appendChild(label)
+
+    const select = document.createElement('select')
+    const option = document.createElement('option')
+    option.value = ''
+    option.innerHTML = ''
+    select.appendChild(option)
+    sortOptions.forEach(sortOption => {
+        const option = document.createElement('option')
+        option.value = sortOption.name
+        option.innerHTML = sortOption.name
+        select.appendChild(option)
+    })
+    select.value = new URLSearchParams(window.location.search).get(sortParam) || ''
+    select.addEventListener('change', function() {
+        const value = this.value
+        const params = new URLSearchParams(window.location.search.slice(1))
+        if (value == '')
+            params.delete(sortParam)
+        else
+            params.set(sortParam, value)
+        const redirect = `${window.location.pathname}?${params}${window.location.hash}`
+        window.location.href = redirect
+    })
+    div.appendChild(select)
+
+    document.body.appendChild(div)
 }
 
 async function loadTable(config) {
@@ -51,7 +87,7 @@ function filterCodex(codex, filters) {
 
 function sortCodex(objects, sortOptions) {
     const queryParams = new URLSearchParams(window.location.search)
-    const sort = queryParams.get('sort')
+    const sort = queryParams.get(sortParam)
     const sortOption = sortOptions.find(sortOption => sortOption.name == sort)
     if (sortOption != null) objects.sort(sortOption.f)
     return objects
@@ -68,7 +104,7 @@ function createBodyRow(tableBody, codexEntry, columns) {
 }
 
 function number(tableCell, number) {
-    tableCell.textContent = number
+    tableCell.textContent = number || 0
     tableCell.align = "right"
 }
 

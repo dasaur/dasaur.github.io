@@ -1,5 +1,39 @@
-window.onload = loadTable({
+window.onload = loadPage({
     url: '/orna-codex/data/weapons.json',
+    filters : [
+        {
+            name: 'tierMin',
+            f: (codexEntry, filterValue) => filterValue <= codexEntry.tier,
+        },
+        {
+            name: 'tierMax',
+            f: (codexEntry, filterValue) => filterValue >= codexEntry.tier,
+        },
+        {
+            name: 'canEquip',
+            f: (codexEntry, filterValue) => (filterValue.includes('w') && codexEntry.warrior) ||
+                (filterValue.includes('m') && codexEntry.mage) ||
+                (filterValue.includes('t') && codexEntry.thief),
+        },
+        {
+            name: 'twoHanded',
+            f: (codexEntry, filterValue) => filterValue == codexEntry.twoHanded,
+        },
+    ],
+    sortOptions : [
+        {
+            name: 'power',
+            f: (x, y) => power(y) - power(x) || x.name.localeCompare(y.city),
+        },
+        {
+            name: 'attack',
+            f: (x, y) => (y.attack | 0) - (x.attack | 0) || x.name.localeCompare(y.city),
+        },
+        {
+            name: 'magic',
+            f: (x, y) => (y.magic | 0) - (x.magic | 0) || x.name.localeCompare(y.city),
+        },
+    ],
     columns: [
         {
             name: 'Name',
@@ -32,40 +66,6 @@ window.onload = loadTable({
         {
             name: 'Element',
             f: (codexEntry, tableCell) => text(tableCell, codexEntry.element),
-        },
-    ],
-    filters : [
-        {
-            name: 'tierMin',
-            f: (codexEntry, filterValue) => filterValue <= codexEntry.tier,
-        },
-        {
-            name: 'tierMax',
-            f: (codexEntry, filterValue) => filterValue >= codexEntry.tier,
-        },
-        {
-            name: 'canEquip',
-            f: (codexEntry, filterValue) => (filterValue.includes('w') && codexEntry.warrior) ||
-                (filterValue.includes('m') && codexEntry.mage) ||
-                (filterValue.includes('t') && codexEntry.thief),
-        },
-        {
-            name: 'twoHanded',
-            f: (codexEntry, filterValue) => filterValue == codexEntry.twoHanded,
-        },
-    ],
-    sortOptions : [
-        {
-            name: 'power',
-            f: (x, y) => power(y) - power(x) || x.name.localeCompare(y.city),
-        },
-        {
-            name: 'attack',
-            f: (x, y) => y.attack - x.attack || x.name.localeCompare(y.city),
-        },
-        {
-            name: 'magic',
-            f: (x, y) => y.magic - x.magic || x.name.localeCompare(y.city),
         },
     ],
 })

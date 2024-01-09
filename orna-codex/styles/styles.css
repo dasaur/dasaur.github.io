@@ -10,9 +10,12 @@
     font-family: Merriweather, Inter, Arial, Helvetica, sans-serif;
 }
 
+.sort, label, select, table, th, td {
+  padding: 5px;
+}
+
 table, th, td {
   border: 1px solid #fff;
-  padding: 5px;
 }
 
 table {
