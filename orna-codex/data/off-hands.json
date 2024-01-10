@@ -1,0 +1,4781 @@
+[ {
+  "url" : "https://playorna.com/codex/items/aegis/",
+  "name" : "Aegis",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 48,
+  "wardPercentage" : 29,
+  "defense" : 12,
+  "immunities" : [ "Petrified", "Stasis" ],
+  "upgradeMaterials" : [ {
+    "name" : "Lightstone",
+    "url" : "https://playorna.com/codex/items/lightstone/"
+  }, {
+    "name" : "Greater Soul",
+    "url" : "https://playorna.com/codex/items/greater-soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/aegis-of-athena/",
+  "name" : "Aegis of Athena",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 48,
+  "wardPercentage" : 17,
+  "immunities" : [ "Petrified" ],
+  "droppedBy" : [ {
+    "name" : "Perseus",
+    "url" : "https://playorna.com/codex/raids/perseus/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Lightstone",
+    "url" : "https://playorna.com/codex/items/lightstone/"
+  }, {
+    "name" : "Greater Soul",
+    "url" : "https://playorna.com/codex/items/greater-soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/aengus-ogs-lute/",
+  "name" : "Aengus Og's Lute",
+  "tier" : 4,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 12,
+  "attack" : 30,
+  "magic" : 30,
+  "adornmentSlots" : 2,
+  "followerStatsPercentage" : 4,
+  "immunities" : [ "Lulled", "Asleep" ],
+  "droppedBy" : [ {
+    "name" : "Aengus Og of Fomoria",
+    "url" : "https://playorna.com/codex/bosses/aengus-og-of-fomoria/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/aines-axe/",
+  "name" : "Aine's Axe",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 8,
+  "attack" : 24,
+  "magic" : 24,
+  "adornmentSlots" : 2,
+  "goldBonusPercentage" : 20,
+  "gives" : [ "Att ↑ (3%)", "Mag ↑ (3%)" ],
+  "causes" : [ "Bleeding", "Stunned" ],
+  "droppedBy" : [ {
+    "name" : "Aine",
+    "url" : "https://playorna.com/codex/monsters/aine/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Iron",
+    "url" : "https://playorna.com/codex/items/iron/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/alpha-myrddin-shield/",
+  "name" : "Alpha Myrddin Shield",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "hp" : 88,
+  "wardPercentage" : 16,
+  "foresight" : 25,
+  "droppedBy" : [ {
+    "name" : "Arisen Merlin",
+    "url" : "https://playorna.com/codex/raids/arisen-merlin/"
+  }, {
+    "name" : "Fallen Merlin",
+    "url" : "https://playorna.com/codex/raids/fallen-merlin/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Perfect Runestone",
+    "url" : "https://playorna.com/codex/items/perfect-runestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/amadans-staff/",
+  "name" : "Amadan's Staff",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "wardPercentage" : 8,
+  "magic" : 60,
+  "resistance" : 60,
+  "foresight" : 90,
+  "adornmentSlots" : 2,
+  "goldBonusPercentage" : 100,
+  "immunities" : [ "Stasis" ],
+  "droppedBy" : [ {
+    "name" : "Amadan",
+    "url" : "https://playorna.com/codex/bosses/amadan/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Iron",
+    "url" : "https://playorna.com/codex/items/iron/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/amergins-razor/",
+  "name" : "Amergin's Razor",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 12,
+  "attack" : 24,
+  "magic" : 24,
+  "adornmentSlots" : 2,
+  "goldBonusPercentage" : 100,
+  "causes" : [ "Bleeding" ],
+  "immunities" : [ "Bleeding" ],
+  "droppedBy" : [ {
+    "name" : "Amergin",
+    "url" : "https://playorna.com/codex/monsters/amergin/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Iron",
+    "url" : "https://playorna.com/codex/items/iron/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arcane-arrows/",
+  "name" : "Arcane Arrows",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : -50,
+  "attack" : 24,
+  "resistance" : 3,
+  "causes" : [ "Burning", "Frozen", "Paralyzed", "Rot" ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Runestone",
+    "url" : "https://playorna.com/codex/items/runestone/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arcane-scroll/",
+  "name" : "Arcane Scroll",
+  "tier" : 6,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : -10,
+  "magic" : 24,
+  "foresight" : 24,
+  "causes" : [ "Burning", "Frozen", "Paralyzed", "Rot" ],
+  "upgradeMaterials" : [ {
+    "name" : "Waterstone",
+    "url" : "https://playorna.com/codex/items/waterstone/"
+  }, {
+    "name" : "Lightningstone",
+    "url" : "https://playorna.com/codex/items/lightningstone/"
+  }, {
+    "name" : "Firestone",
+    "url" : "https://playorna.com/codex/items/firestone/"
+  }, {
+    "name" : "Earthstone",
+    "url" : "https://playorna.com/codex/items/earthstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arch-rune-shield/",
+  "name" : "Arch-Rune Shield",
+  "tier" : 7,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 17,
+  "resistance" : 55,
+  "upgradeMaterials" : [ {
+    "name" : "Runestone",
+    "url" : "https://playorna.com/codex/items/runestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/archmages-scroll/",
+  "name" : "Archmage's Scroll",
+  "tier" : 4,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : -7,
+  "magic" : 17,
+  "foresight" : 16,
+  "upgradeMaterials" : [ {
+    "name" : "Runestone",
+    "url" : "https://playorna.com/codex/items/runestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/argent-shield/",
+  "name" : "Argent Shield",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 21,
+  "resistance" : 155,
+  "upgradeMaterials" : [ {
+    "name" : "Runestone",
+    "url" : "https://playorna.com/codex/items/runestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-bloodwarg-grimoire/",
+  "name" : "Arisen Bloodwarg Grimoire",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "wardPercentage" : 23,
+  "magic" : 48,
+  "resistance" : 12,
+  "adornmentSlots" : 2,
+  "summonStatsPercentage" : 10,
+  "droppedBy" : [ {
+    "name" : "Arisen Fenja",
+    "url" : "https://playorna.com/codex/raids/arisen-fenja/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Hide",
+    "url" : "https://playorna.com/codex/items/hide/"
+  }, {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-bone-shield/",
+  "name" : "Arisen Bone Shield",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "hp" : 48,
+  "wardPercentage" : 18,
+  "defense" : 48,
+  "droppedBy" : [ {
+    "name" : "Undead Golem",
+    "url" : "https://playorna.com/codex/monsters/undead-golem/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Undead Bone",
+    "url" : "https://playorna.com/codex/items/undead-bone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-cursed-aengus-ogs-lute/",
+  "name" : "Arisen Cursed Aengus Og's Lute",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 30,
+  "attack" : 75,
+  "magic" : 75,
+  "adornmentSlots" : 2,
+  "followerStatsPercentage" : 8,
+  "summonStatsPercentage" : 8,
+  "immunities" : [ "Lulled", "Asleep" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Cursed Aengus Og of Fomoria",
+    "url" : "https://playorna.com/codex/bosses/arisen-cursed-aengus-og-of-fomoria/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-cursed-autumna-crested-shield/",
+  "name" : "Arisen Cursed Autumna Crested Shield",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : true,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 30,
+  "defense" : 175,
+  "resistance" : 175,
+  "adornmentSlots" : 2,
+  "followerStatsPercentage" : 2,
+  "summonStatsPercentage" : 2,
+  "droppedBy" : [ {
+    "name" : "Arisen Cursed King Fomor, Autumna",
+    "url" : "https://playorna.com/codex/bosses/arisen-cursed-king-fomor-autumna/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-cursed-damonas-shield/",
+  "name" : "Arisen Cursed Damona's Shield",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : true,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 24,
+  "defense" : 115,
+  "resistance" : 115,
+  "adornmentSlots" : 2,
+  "immunities" : [ "Paralyzed", "Rot" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Cursed Damona of Fomoria",
+    "url" : "https://playorna.com/codex/bosses/arisen-cursed-damona-of-fomoria/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-cursed-esuss-pillar/",
+  "name" : "Arisen Cursed Esus's Pillar",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 22,
+  "defense" : 75,
+  "resistance" : 75,
+  "adornmentSlots" : 2,
+  "immunities" : [ "Petrified" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Cursed Esus of Fomoria",
+    "url" : "https://playorna.com/codex/bosses/arisen-cursed-esus-of-fomoria/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-cursed-goibhniu-armguard/",
+  "name" : "Arisen Cursed Goibhniu Armguard",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 26,
+  "defense" : 65,
+  "resistance" : 65,
+  "adornmentSlots" : 2,
+  "immunities" : [ "Burning" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Cursed Goibhniu of Fomoria",
+    "url" : "https://playorna.com/codex/bosses/arisen-cursed-goibhniu-of-fomoria/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-cursed-nocturna-crested-shield/",
+  "name" : "Arisen Cursed Nocturna Crested Shield",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 30,
+  "defense" : 150,
+  "resistance" : 150,
+  "adornmentSlots" : 2,
+  "followerStatsPercentage" : 2,
+  "summonStatsPercentage" : 2,
+  "droppedBy" : [ {
+    "name" : "Arisen Cursed King Fomor, Nocturna",
+    "url" : "https://playorna.com/codex/bosses/arisen-cursed-king-fomor-nocturna/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-cursed-sumner-crested-shield/",
+  "name" : "Arisen Cursed Sumner Crested Shield",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 30,
+  "defense" : 237,
+  "resistance" : -200,
+  "adornmentSlots" : 2,
+  "followerStatsPercentage" : 2,
+  "summonStatsPercentage" : 2,
+  "droppedBy" : [ {
+    "name" : "Arisen Cursed King Fomor, Sumner",
+    "url" : "https://playorna.com/codex/bosses/arisen-cursed-king-fomor-sumner/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-cursed-wintara-crested-shield/",
+  "name" : "Arisen Cursed Wintara Crested Shield",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 30,
+  "defense" : -200,
+  "resistance" : 237,
+  "adornmentSlots" : 2,
+  "followerStatsPercentage" : 2,
+  "summonStatsPercentage" : 2,
+  "droppedBy" : [ {
+    "name" : "Arisen Cursed King Fomor, Wintara",
+    "url" : "https://playorna.com/codex/bosses/arisen-cursed-king-fomor-wintara/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-fairys-tanto/",
+  "name" : "Arisen Fairy's Tanto",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : -33,
+  "attack" : 48,
+  "dexterity" : 48,
+  "criticalHitChance" : 2,
+  "causes" : [ "Poisoned" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Naggeneen",
+    "url" : "https://playorna.com/codex/raids/arisen-naggeneen/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Steel",
+    "url" : "https://playorna.com/codex/items/steel/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-gerds-horsewhip/",
+  "name" : "Arisen Gerd's Horsewhip",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : -5,
+  "defense" : 98,
+  "resistance" : 98,
+  "adornmentSlots" : 1,
+  "followerStatsPercentage" : 8,
+  "droppedBy" : [ {
+    "name" : "Arisen Gerd",
+    "url" : "https://playorna.com/codex/raids/arisen-gerd/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Platinum",
+    "url" : "https://playorna.com/codex/items/platinum/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Soul",
+    "url" : "https://playorna.com/codex/items/soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-hels-feathers/",
+  "name" : "Arisen Hel's Feathers",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : true,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : 24,
+  "criticalHitChance" : 2,
+  "adornmentSlots" : 2,
+  "causes" : [ "Poisoned", "Blight" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Hel",
+    "url" : "https://playorna.com/codex/raids/arisen-hel/"
+  }, {
+    "name" : "The Mightiest Mimic",
+    "url" : "https://playorna.com/codex/raids/the-mightiest-mimic/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Hide",
+    "url" : "https://playorna.com/codex/items/hide/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Greater Soul",
+    "url" : "https://playorna.com/codex/items/greater-soul/"
+  }, {
+    "name" : "Earthstone",
+    "url" : "https://playorna.com/codex/items/earthstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-menjas-shield/",
+  "name" : "Arisen Menja's Shield",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : 12,
+  "magic" : 40,
+  "resistance" : 210,
+  "adornmentSlots" : 1,
+  "immunities" : [ "Stunned" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Menja",
+    "url" : "https://playorna.com/codex/raids/arisen-menja/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Platinum",
+    "url" : "https://playorna.com/codex/items/platinum/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Soul",
+    "url" : "https://playorna.com/codex/items/soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-morrigans-scroll/",
+  "name" : "Arisen Morrigan's Scroll",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "mana" : 143,
+  "wardPercentage" : -55,
+  "magic" : 77,
+  "foresight" : 40,
+  "causes" : [ "T. Res ↓↓" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Morrigan",
+    "url" : "https://playorna.com/codex/raids/arisen-morrigan/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Cursed Ortanite",
+    "url" : "https://playorna.com/codex/items/cursed-ortanite/"
+  }, {
+    "name" : "Greater Soul",
+    "url" : "https://playorna.com/codex/items/greater-soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-north-star/",
+  "name" : "Arisen North Star",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : 12,
+  "magic" : 90,
+  "luckBonusPercentage" : 4,
+  "viewDistancePercentage" : 20,
+  "gives" : [ "T. Att ↑ (3%)", "T. Mag ↑ (3%)", "T. Def ↑ (3%)", "T. Res ↑ (3%)", "T. Crit ↑ (3%)" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Ebon Scruug",
+    "url" : "https://playorna.com/codex/raids/arisen-ebon-scruug/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Perfect Runestone",
+    "url" : "https://playorna.com/codex/items/perfect-runestone/"
+  }, {
+    "name" : "Runestone",
+    "url" : "https://playorna.com/codex/items/runestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-realm-katar/",
+  "name" : "Arisen Realm Katar",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "attack" : 13,
+  "magic" : 14,
+  "dexterity" : 13,
+  "criticalHitChance" : 3,
+  "adornmentSlots" : 6,
+  "droppedBy" : [ {
+    "name" : "Arisen Morrigan",
+    "url" : "https://playorna.com/codex/raids/arisen-morrigan/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Cursed Ortanite",
+    "url" : "https://playorna.com/codex/items/cursed-ortanite/"
+  }, {
+    "name" : "Greater Soul",
+    "url" : "https://playorna.com/codex/items/greater-soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-rhada-greatshield/",
+  "name" : "Arisen Rhada Greatshield",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "wardPercentage" : 35,
+  "adornmentSlots" : 2,
+  "immunities" : [ "Stunned" ],
+  "droppedBy" : [ {
+    "name" : "Shade of Rhada, the Great Shield",
+    "url" : "https://playorna.com/codex/monsters/shade-of-rhada-the-great-shield-70e460f3/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Hardened Steel",
+    "url" : "https://playorna.com/codex/items/hardened-steel/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  }, {
+    "name" : "Stone",
+    "url" : "https://playorna.com/codex/items/stone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-riftshield/",
+  "name" : "Arisen Riftshield",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "wardPercentage" : 24,
+  "resistance" : 120,
+  "adornmentSlots" : 2,
+  "immunities" : [ "Stunned" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Rift Judgement",
+    "url" : "https://playorna.com/codex/raids/arisen-rift-judgement/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  }, {
+    "name" : "Stone",
+    "url" : "https://playorna.com/codex/items/stone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-shield/",
+  "name" : "Arisen Shield",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 24,
+  "wardPercentage" : 39,
+  "defense" : 22,
+  "resistance" : 22,
+  "immunities" : [ "Cursed" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Mammon",
+    "url" : "https://playorna.com/codex/bosses/arisen-mammon/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Ortanite",
+    "url" : "https://playorna.com/codex/items/ortanite/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-spiritgarm-grimoire/",
+  "name" : "Arisen Spiritgarm Grimoire",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "wardPercentage" : 23,
+  "magic" : 48,
+  "resistance" : 12,
+  "adornmentSlots" : 2,
+  "summonStatsPercentage" : 10,
+  "droppedBy" : [ {
+    "name" : "Arisen Fenja",
+    "url" : "https://playorna.com/codex/raids/arisen-fenja/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Hide",
+    "url" : "https://playorna.com/codex/items/hide/"
+  }, {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-stonewarg-grimoire/",
+  "name" : "Arisen Stonewarg Grimoire",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "wardPercentage" : 23,
+  "magic" : 48,
+  "resistance" : 12,
+  "adornmentSlots" : 2,
+  "summonStatsPercentage" : 10,
+  "droppedBy" : [ {
+    "name" : "Arisen Fenja",
+    "url" : "https://playorna.com/codex/raids/arisen-fenja/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Hide",
+    "url" : "https://playorna.com/codex/items/hide/"
+  }, {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-surtrs-shield/",
+  "name" : "Arisen Surtr's Shield",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : -75,
+  "defense" : 198,
+  "resistance" : 198,
+  "adornmentSlots" : 1,
+  "droppedBy" : [ {
+    "name" : "Arisen Surtr",
+    "url" : "https://playorna.com/codex/raids/arisen-surtr/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Platinum",
+    "url" : "https://playorna.com/codex/items/platinum/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Soul",
+    "url" : "https://playorna.com/codex/items/soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-tizona/",
+  "name" : "Arisen Tizona",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 36,
+  "attack" : -50,
+  "defense" : -50,
+  "magic" : -50,
+  "resistance" : -50,
+  "adornmentSlots" : 2,
+  "causes" : [ "Def ↓", "Res ↓" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Balin",
+    "url" : "https://playorna.com/codex/raids/arisen-balin/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Hardened Steel",
+    "url" : "https://playorna.com/codex/items/hardened-steel/"
+  }, {
+    "name" : "Avalon Ore",
+    "url" : "https://playorna.com/codex/items/avalon-ore/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-witchs-scroll/",
+  "name" : "Arisen Witch's Scroll",
+  "tier" : 9,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "mana" : 120,
+  "wardPercentage" : -50,
+  "foresight" : 36,
+  "causes" : [ "Poisoned", "Bleeding", "Blind", "Asleep", "Drenched", "Blight" ],
+  "droppedBy" : [ {
+    "name" : "Carman",
+    "url" : "https://playorna.com/codex/monsters/carman-5458cf68/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Witchstone",
+    "url" : "https://playorna.com/codex/items/witchstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-wolven-tower-shield/",
+  "name" : "Arisen Wolven Tower Shield",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 27,
+  "attack" : -80,
+  "defense" : 160,
+  "magic" : -80,
+  "resistance" : 160,
+  "droppedBy" : [ {
+    "name" : "Arisen Kerberos",
+    "url" : "https://playorna.com/codex/raids/arisen-kerberos/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Wolf's Blood",
+    "url" : "https://playorna.com/codex/items/wolfs-blood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/asgard-shield/",
+  "name" : "Asgard Shield",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "element" : "Water",
+  "wardPercentage" : 28,
+  "droppedBy" : [ {
+    "name" : "Elite Nothren Valkyrie",
+    "url" : "https://playorna.com/codex/monsters/elite-nothren-valkyrie/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Baldur",
+    "url" : "https://playorna.com/codex/items/baldur/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ashen-phoenician-shield/",
+  "name" : "Ashen Phoenician Shield",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "element" : "Arcane",
+  "wardPercentage" : 35,
+  "adornmentSlots" : 2,
+  "immunities" : [ "Blind" ],
+  "droppedBy" : [ {
+    "name" : "Ashen Phoenix",
+    "url" : "https://playorna.com/codex/raids/ashen-phoenix/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Greater Soul",
+    "url" : "https://playorna.com/codex/items/greater-soul/"
+  }, {
+    "name" : "Firestone",
+    "url" : "https://playorna.com/codex/items/firestone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/atlas/",
+  "name" : "Atlas",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : 39,
+  "immunities" : [ "Stunned", "Def ↓" ],
+  "droppedBy" : [ {
+    "name" : "Fallen Vanguard",
+    "url" : "https://playorna.com/codex/monsters/fallen-vanguard/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Lyonite",
+    "url" : "https://playorna.com/codex/items/lyonite/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/autumna-crested-shield/",
+  "name" : "Autumna Crested Shield",
+  "tier" : 4,
+  "warrior" : false,
+  "thief" : true,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 12,
+  "defense" : 70,
+  "resistance" : 70,
+  "adornmentSlots" : 2,
+  "followerStatsPercentage" : 2,
+  "summonStatsPercentage" : 2,
+  "droppedBy" : [ {
+    "name" : "King Fomor, Autumna",
+    "url" : "https://playorna.com/codex/bosses/king-fomor-autumna/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/badbs-feathers/",
+  "name" : "Badb's Feathers",
+  "tier" : 7,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "attack" : 24,
+  "dexterity" : 24,
+  "criticalHitChance" : 1,
+  "causes" : [ "Poisoned", "Rot" ],
+  "droppedBy" : [ {
+    "name" : "Sister Badb",
+    "url" : "https://playorna.com/codex/raids/sister-badb/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  }, {
+    "name" : "Soul",
+    "url" : "https://playorna.com/codex/items/soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/bag-of-tricks/",
+  "name" : "Bag of Tricks",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "causes" : [ "Poisoned", "Bleeding", "Burning", "Frozen", "Paralyzed", "Rot", "Blind", "Asleep", "Drenched", "Stunned", "Blight", "Petrified" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Pumpkinhead",
+    "url" : "https://playorna.com/codex/raids/arisen-pumpkinhead/"
+  }, {
+    "name" : "Pumpkinhead",
+    "url" : "https://playorna.com/codex/raids/pumpkinhead/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool-ef1c6cb2/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/balins-left/",
+  "name" : "Balin's Left",
+  "tier" : 7,
+  "warrior" : true,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "wardPercentage" : 18,
+  "attack" : 12,
+  "causes" : [ "Mag ↓" ],
+  "droppedBy" : [ {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool-ef1c6cb2/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Platinum",
+    "url" : "https://playorna.com/codex/items/platinum/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/balor-shield/",
+  "name" : "Balor Shield",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 25,
+  "droppedBy" : [ {
+    "name" : "Balor Marauder",
+    "url" : "https://playorna.com/codex/monsters/balor-marauder/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/beags-lute/",
+  "name" : "Beag's Lute",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 14,
+  "attack" : 24,
+  "defense" : 24,
+  "magic" : 24,
+  "resistance" : 24,
+  "foresight" : 6,
+  "criticalHitChance" : 1,
+  "adornmentSlots" : 2,
+  "goldBonusPercentage" : 100,
+  "droppedBy" : [ {
+    "name" : "Beag",
+    "url" : "https://playorna.com/codex/monsters/beag/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Iron",
+    "url" : "https://playorna.com/codex/items/iron/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/beguiled-mystic-katar/",
+  "name" : "Beguiled Mystic Katar",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : 29,
+  "dexterity" : 80,
+  "foresight" : 20,
+  "criticalHitChance" : 4,
+  "adornmentSlots" : 4,
+  "gives" : [ "T. Att ↑ (5%)", "T. Mag ↑ (5%)" ],
+  "immunities" : [ "Burning", "Frozen", "Paralyzed", "Rot" ],
+  "droppedBy" : [ {
+    "name" : "Beguiled Apollyon",
+    "url" : "https://playorna.com/codex/raids/beguiled-apollyon/"
+  }, {
+    "name" : "The Mightiest Mimic",
+    "url" : "https://playorna.com/codex/raids/the-mightiest-mimic/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Waterstone",
+    "url" : "https://playorna.com/codex/items/waterstone/"
+  }, {
+    "name" : "Lightningstone",
+    "url" : "https://playorna.com/codex/items/lightningstone/"
+  }, {
+    "name" : "Firestone",
+    "url" : "https://playorna.com/codex/items/firestone/"
+  }, {
+    "name" : "Earthstone",
+    "url" : "https://playorna.com/codex/items/earthstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/beta-myrddin-shield/",
+  "name" : "Beta Myrddin Shield",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "hp" : 100,
+  "wardPercentage" : 19,
+  "foresight" : 30,
+  "droppedBy" : [ {
+    "name" : "Arisen Merlin",
+    "url" : "https://playorna.com/codex/raids/arisen-merlin/"
+  }, {
+    "name" : "Fallen Merlin",
+    "url" : "https://playorna.com/codex/raids/fallen-merlin/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Perfect Runestone",
+    "url" : "https://playorna.com/codex/items/perfect-runestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/blight-arrows/",
+  "name" : "Blight Arrows",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : -25,
+  "attack" : 24,
+  "causes" : [ "Blight" ],
+  "upgradeMaterials" : [ {
+    "name" : "Dragonite",
+    "url" : "https://playorna.com/codex/items/dragonite/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/bloodwarg-grimoire/",
+  "name" : "Bloodwarg Grimoire",
+  "tier" : 8,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "wardPercentage" : 19,
+  "magic" : 24,
+  "resistance" : 12,
+  "adornmentSlots" : 2,
+  "summonStatsPercentage" : 10,
+  "droppedBy" : [ {
+    "name" : "Arisen Fenja",
+    "url" : "https://playorna.com/codex/raids/arisen-fenja/"
+  }, {
+    "name" : "Fenja",
+    "url" : "https://playorna.com/codex/raids/fenja/"
+  }, {
+    "name" : "Jormungandr",
+    "url" : "https://playorna.com/codex/raids/jormungandr/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Hide",
+    "url" : "https://playorna.com/codex/items/hide/"
+  }, {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/bone-shield/",
+  "name" : "Bone Shield",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "hp" : 24,
+  "wardPercentage" : 12,
+  "defense" : 24,
+  "droppedBy" : [ {
+    "name" : "Undead Golem",
+    "url" : "https://playorna.com/codex/bosses/undead-golem-b7ec8937/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Undead Bone",
+    "url" : "https://playorna.com/codex/items/undead-bone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/book-of-darkness/",
+  "name" : "Book of Darkness",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "element" : "Dark",
+  "attack" : 20,
+  "magic" : 20,
+  "adornmentSlots" : 1,
+  "gives" : [ "Dark Aligned (15%)" ],
+  "causes" : [ "Asleep" ],
+  "droppedBy" : [ {
+    "name" : "Apollyon's Apprentice",
+    "url" : "https://playorna.com/codex/monsters/apollyons-apprentice/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Darkstone",
+    "url" : "https://playorna.com/codex/items/darkstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/book-of-earth/",
+  "name" : "Book of Earth",
+  "tier" : 5,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "element" : "Earthen",
+  "magic" : 20,
+  "adornmentSlots" : 1,
+  "gives" : [ "Earth Aligned (15%)" ],
+  "causes" : [ "Rot" ],
+  "droppedBy" : [ {
+    "name" : "Apollyon's Pupil",
+    "url" : "https://playorna.com/codex/monsters/apollyons-pupil/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Earthstone",
+    "url" : "https://playorna.com/codex/items/earthstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/book-of-fire/",
+  "name" : "Book of Fire",
+  "tier" : 5,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "element" : "Fire",
+  "magic" : 20,
+  "adornmentSlots" : 1,
+  "gives" : [ "Fire Aligned (15%)" ],
+  "causes" : [ "Burning" ],
+  "droppedBy" : [ {
+    "name" : "Apollyon's Pupil",
+    "url" : "https://playorna.com/codex/monsters/apollyons-pupil-88e5ba1c/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Firestone",
+    "url" : "https://playorna.com/codex/items/firestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/book-of-light/",
+  "name" : "Book of Light",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "element" : "Holy",
+  "attack" : 20,
+  "magic" : 20,
+  "adornmentSlots" : 1,
+  "gives" : [ "Holy Aligned (20%)" ],
+  "causes" : [ "Blind", "Stunned" ],
+  "droppedBy" : [ {
+    "name" : "Apollyon's Apprentice",
+    "url" : "https://playorna.com/codex/monsters/apollyons-apprentice/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Lightstone",
+    "url" : "https://playorna.com/codex/items/lightstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/book-of-lightning/",
+  "name" : "Book of Lightning",
+  "tier" : 5,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "element" : "Lightning",
+  "magic" : 20,
+  "adornmentSlots" : 1,
+  "gives" : [ "Lightning Aligned (15%)" ],
+  "causes" : [ "Paralyzed" ],
+  "droppedBy" : [ {
+    "name" : "Apollyon's Pupil",
+    "url" : "https://playorna.com/codex/monsters/apollyons-pupil-e22d143d/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Lightningstone",
+    "url" : "https://playorna.com/codex/items/lightningstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/book-of-water/",
+  "name" : "Book of Water",
+  "tier" : 5,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "element" : "Water",
+  "magic" : 20,
+  "adornmentSlots" : 1,
+  "gives" : [ "Water Aligned (15%)" ],
+  "causes" : [ "Frozen" ],
+  "droppedBy" : [ {
+    "name" : "Apollyon's Pupil",
+    "url" : "https://playorna.com/codex/monsters/apollyons-pupil-55495ffd/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Waterstone",
+    "url" : "https://playorna.com/codex/items/waterstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/book-of-the-arcane/",
+  "name" : "Book of the Arcane",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "element" : "Arcane",
+  "attack" : 25,
+  "magic" : 25,
+  "adornmentSlots" : 1,
+  "gives" : [ "Arcane Aligned (20%)" ],
+  "causes" : [ "Burning", "Frozen", "Paralyzed", "Rot" ],
+  "droppedBy" : [ {
+    "name" : "Apollyon's Apprentice",
+    "url" : "https://playorna.com/codex/monsters/apollyons-apprentice/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Waterstone",
+    "url" : "https://playorna.com/codex/items/waterstone/"
+  }, {
+    "name" : "Lightningstone",
+    "url" : "https://playorna.com/codex/items/lightningstone/"
+  }, {
+    "name" : "Firestone",
+    "url" : "https://playorna.com/codex/items/firestone/"
+  }, {
+    "name" : "Earthstone",
+    "url" : "https://playorna.com/codex/items/earthstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/book-of-the-dragon/",
+  "name" : "Book of the Dragon",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "element" : "Dragon",
+  "attack" : 20,
+  "magic" : 20,
+  "adornmentSlots" : 1,
+  "gives" : [ "Dragon Aligned (15%)" ],
+  "causes" : [ "Blight" ],
+  "droppedBy" : [ {
+    "name" : "Apollyon's Apprentice",
+    "url" : "https://playorna.com/codex/monsters/apollyons-apprentice/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Dragonite",
+    "url" : "https://playorna.com/codex/items/dragonite/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/bricrius-bow/",
+  "name" : "Bricriu's Bow",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 12,
+  "attack" : 24,
+  "magic" : 24,
+  "adornmentSlots" : 2,
+  "goldBonusPercentage" : 100,
+  "causes" : [ "Stunned" ],
+  "droppedBy" : [ {
+    "name" : "Bricriu",
+    "url" : "https://playorna.com/codex/monsters/bricriu/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Iron",
+    "url" : "https://playorna.com/codex/items/iron/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/buckler/",
+  "name" : "Buckler",
+  "tier" : 3,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "wardPercentage" : 9,
+  "upgradeMaterials" : [ {
+    "name" : "Iron",
+    "url" : "https://playorna.com/codex/items/iron/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/charons-grimoire/",
+  "name" : "Charon's Grimoire",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "wardPercentage" : 26,
+  "defense" : 40,
+  "resistance" : 40,
+  "foresight" : 12,
+  "droppedBy" : [ {
+    "name" : "Shade of Charon, Grand Summoner",
+    "url" : "https://playorna.com/codex/monsters/shade-of-charon-grand-summoner/"
+  }, {
+    "name" : "The Mightiest Mimic",
+    "url" : "https://playorna.com/codex/raids/the-mightiest-mimic/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Perfect Runestone",
+    "url" : "https://playorna.com/codex/items/perfect-runestone/"
+  }, {
+    "name" : "Leather",
+    "url" : "https://playorna.com/codex/items/leather/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/clurichaun-arrows/",
+  "name" : "Clurichaun Arrows",
+  "tier" : 7,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "attack" : 24,
+  "magic" : 24,
+  "causes" : [ "Poisoned", "Blight" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Naggeneen",
+    "url" : "https://playorna.com/codex/raids/arisen-naggeneen/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool-ef1c6cb2/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Hide",
+    "url" : "https://playorna.com/codex/items/hide/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/coiled-shield/",
+  "name" : "Coiled Shield",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "element" : "Dragon",
+  "wardPercentage" : 16,
+  "droppedBy" : [ {
+    "name" : "Lotan, Coiled One",
+    "url" : "https://playorna.com/codex/bosses/lotan-coiled-one/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Draconite",
+    "url" : "https://playorna.com/codex/items/draconite/"
+  }, {
+    "name" : "Pure Draconite",
+    "url" : "https://playorna.com/codex/items/pure-draconite/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/conalls-wand/",
+  "name" : "Conall's Wand",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 8,
+  "magic" : 30,
+  "resistance" : 20,
+  "foresight" : 12,
+  "adornmentSlots" : 2,
+  "goldBonusPercentage" : 100,
+  "droppedBy" : [ {
+    "name" : "Conall",
+    "url" : "https://playorna.com/codex/monsters/conall/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Iron",
+    "url" : "https://playorna.com/codex/items/iron/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/cormacs-shotel/",
+  "name" : "Cormac's Shotel",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "dexterity" : 120,
+  "criticalHitChance" : 8,
+  "adornmentSlots" : 2,
+  "goldBonusPercentage" : 100,
+  "gives" : [ "Bleeding (10%)" ],
+  "droppedBy" : [ {
+    "name" : "Cormac",
+    "url" : "https://playorna.com/codex/monsters/cormac/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Iron",
+    "url" : "https://playorna.com/codex/items/iron/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/cracked-mirror/",
+  "name" : "Cracked Mirror",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "mana" : -240,
+  "wardPercentage" : -100,
+  "droppedBy" : [ {
+    "name" : "King of Ljosalfar",
+    "url" : "https://playorna.com/codex/raids/king-of-ljosalfar/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Greater Soul",
+    "url" : "https://playorna.com/codex/items/greater-soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/crest-of-avalon/",
+  "name" : "Crest of Avalon",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : 27,
+  "droppedBy" : [ {
+    "name" : "Fallen King Arthus",
+    "url" : "https://playorna.com/codex/raids/fallen-king-arthus/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Avalon Ore",
+    "url" : "https://playorna.com/codex/items/avalon-ore/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/cursed-aengus-ogs-lute/",
+  "name" : "Cursed Aengus Og's Lute",
+  "tier" : 8,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 24,
+  "attack" : 60,
+  "magic" : 60,
+  "adornmentSlots" : 2,
+  "followerStatsPercentage" : 8,
+  "summonStatsPercentage" : 8,
+  "immunities" : [ "Lulled", "Asleep" ],
+  "droppedBy" : [ {
+    "name" : "Cursed Aengus Og of Fomoria",
+    "url" : "https://playorna.com/codex/bosses/cursed-aengus-og-of-fomoria/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/cursed-autumna-crested-shield/",
+  "name" : "Cursed Autumna Crested Shield",
+  "tier" : 8,
+  "warrior" : false,
+  "thief" : true,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 24,
+  "defense" : 140,
+  "resistance" : 140,
+  "adornmentSlots" : 2,
+  "followerStatsPercentage" : 2,
+  "summonStatsPercentage" : 2,
+  "droppedBy" : [ {
+    "name" : "Cursed King Fomor, Autumna",
+    "url" : "https://playorna.com/codex/bosses/cursed-king-fomor-autumna/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/cursed-damonas-shield/",
+  "name" : "Cursed Damona's Shield",
+  "tier" : 8,
+  "warrior" : false,
+  "thief" : true,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 18,
+  "defense" : 92,
+  "resistance" : 92,
+  "adornmentSlots" : 2,
+  "immunities" : [ "Paralyzed", "Rot" ],
+  "droppedBy" : [ {
+    "name" : "Cursed Damona of Fomoria",
+    "url" : "https://playorna.com/codex/bosses/cursed-damona-of-fomoria/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/cursed-esuss-pillar/",
+  "name" : "Cursed Esus's Pillar",
+  "tier" : 8,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 16,
+  "defense" : 60,
+  "resistance" : 60,
+  "adornmentSlots" : 2,
+  "immunities" : [ "Petrified" ],
+  "droppedBy" : [ {
+    "name" : "Cursed Esus of Fomoria",
+    "url" : "https://playorna.com/codex/bosses/cursed-esus-of-fomoria/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/cursed-goibhniu-armguard/",
+  "name" : "Cursed Goibhniu Armguard",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 20,
+  "defense" : 52,
+  "resistance" : 52,
+  "adornmentSlots" : 2,
+  "immunities" : [ "Burning" ],
+  "droppedBy" : [ {
+    "name" : "Cursed Goibhniu of Fomoria",
+    "url" : "https://playorna.com/codex/bosses/cursed-goibhniu-of-fomoria/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/cursed-nocturna-crested-shield/",
+  "name" : "Cursed Nocturna Crested Shield",
+  "tier" : 8,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 24,
+  "defense" : 120,
+  "resistance" : 120,
+  "adornmentSlots" : 2,
+  "followerStatsPercentage" : 2,
+  "summonStatsPercentage" : 2,
+  "droppedBy" : [ {
+    "name" : "Cursed King Fomor, Nocturna",
+    "url" : "https://playorna.com/codex/bosses/cursed-king-fomor-nocturna/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/cursed-sumner-crested-shield/",
+  "name" : "Cursed Sumner Crested Shield",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 24,
+  "defense" : 190,
+  "resistance" : -160,
+  "adornmentSlots" : 2,
+  "followerStatsPercentage" : 2,
+  "summonStatsPercentage" : 2,
+  "droppedBy" : [ {
+    "name" : "Cursed King Fomor, Sumner",
+    "url" : "https://playorna.com/codex/bosses/cursed-king-fomor-sumner/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/cursed-wintara-crested-shield/",
+  "name" : "Cursed Wintara Crested Shield",
+  "tier" : 8,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 24,
+  "defense" : -160,
+  "resistance" : 190,
+  "adornmentSlots" : 2,
+  "followerStatsPercentage" : 2,
+  "summonStatsPercentage" : 2,
+  "droppedBy" : [ {
+    "name" : "Cursed King Fomor, Wintara",
+    "url" : "https://playorna.com/codex/bosses/cursed-king-fomor-wintara/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/damonas-shield/",
+  "name" : "Damona's Shield",
+  "tier" : 4,
+  "warrior" : false,
+  "thief" : true,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 6,
+  "defense" : 46,
+  "resistance" : 46,
+  "adornmentSlots" : 2,
+  "immunities" : [ "Paralyzed", "Rot" ],
+  "droppedBy" : [ {
+    "name" : "Damona of Fomoria",
+    "url" : "https://playorna.com/codex/bosses/damona-of-fomoria/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/dangys-laptop/",
+  "name" : "Dangy's Laptop",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 35,
+  "adornmentSlots" : 2,
+  "immunities" : [ "Stunned" ],
+  "droppedBy" : [ {
+    "name" : "Dangy",
+    "url" : "https://playorna.com/codex/raids/dangy/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  }, {
+    "name" : "Stone",
+    "url" : "https://playorna.com/codex/items/stone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/delta-myrddin-shield/",
+  "name" : "Delta Myrddin Shield",
+  "tier" : 7,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "hp" : 112,
+  "wardPercentage" : 22,
+  "foresight" : 35,
+  "droppedBy" : [ {
+    "name" : "Arisen Merlin",
+    "url" : "https://playorna.com/codex/raids/arisen-merlin/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Perfect Runestone",
+    "url" : "https://playorna.com/codex/items/perfect-runestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/distorted-riftshield/",
+  "name" : "Distorted Riftshield",
+  "tier" : 8,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "wardPercentage" : 14,
+  "resistance" : 120,
+  "adornmentSlots" : 2,
+  "immunities" : [ "Stunned" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Rift Judgement",
+    "url" : "https://playorna.com/codex/raids/arisen-rift-judgement/"
+  }, {
+    "name" : "Rift Judgement",
+    "url" : "https://playorna.com/codex/raids/rift-judgement/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  }, {
+    "name" : "Stone",
+    "url" : "https://playorna.com/codex/items/stone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/dontas-shield/",
+  "name" : "Donta's Shield",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "element" : "Dark",
+  "hp" : 90,
+  "wardPercentage" : 19,
+  "droppedBy" : [ {
+    "name" : "Fallen Hero, Lover Lost",
+    "url" : "https://playorna.com/codex/bosses/fallen-hero-lover-lost/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Iron",
+    "url" : "https://playorna.com/codex/items/iron/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/dracon-shield/",
+  "name" : "Dracon Shield",
+  "tier" : 3,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : 9,
+  "droppedBy" : [ {
+    "name" : "Dracon",
+    "url" : "https://playorna.com/codex/raids/dracon/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Draconite",
+    "url" : "https://playorna.com/codex/items/draconite/"
+  }, {
+    "name" : "Steel",
+    "url" : "https://playorna.com/codex/items/steel/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/dragon-crested-shield/",
+  "name" : "Dragon Crested Shield",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "element" : "Dragon",
+  "wardPercentage" : 15,
+  "droppedBy" : [ {
+    "name" : "Small Dragon",
+    "url" : "https://playorna.com/codex/monsters/small-dragon/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Dragonite",
+    "url" : "https://playorna.com/codex/items/dragonite/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/dragon-scroll/",
+  "name" : "Dragon Scroll",
+  "tier" : 8,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "mana" : 80,
+  "wardPercentage" : -50,
+  "magic" : 48,
+  "foresight" : 32,
+  "causes" : [ "Blight" ],
+  "droppedBy" : [ {
+    "name" : "Fafnir",
+    "url" : "https://playorna.com/codex/monsters/fafnir/"
+  }, {
+    "name" : "Fafnir",
+    "url" : "https://playorna.com/codex/bosses/fafnir-66402ab7/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Dragonite",
+    "url" : "https://playorna.com/codex/items/dragonite/"
+  }, {
+    "name" : "Runestone",
+    "url" : "https://playorna.com/codex/items/runestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/dukes-shield/",
+  "name" : "Duke's Shield",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 12,
+  "upgradeMaterials" : [ {
+    "name" : "Runestone",
+    "url" : "https://playorna.com/codex/items/runestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/earthen-arrows/",
+  "name" : "Earthen Arrows",
+  "tier" : 3,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "wardPercentage" : -25,
+  "attack" : 12,
+  "causes" : [ "Rot" ],
+  "upgradeMaterials" : [ {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  }, {
+    "name" : "Earthstone",
+    "url" : "https://playorna.com/codex/items/earthstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ebon-north-star/",
+  "name" : "Ebon North Star",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : 12,
+  "magic" : 80,
+  "luckBonusPercentage" : 4,
+  "viewDistancePercentage" : 20,
+  "gives" : [ "T. Att ↑ (3%)", "T. Mag ↑ (3%)", "T. Def ↑ (3%)", "T. Res ↑ (3%)", "T. Crit ↑ (3%)" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Ebon Scruug",
+    "url" : "https://playorna.com/codex/raids/arisen-ebon-scruug/"
+  }, {
+    "name" : "Ebon Scruug",
+    "url" : "https://playorna.com/codex/raids/ebon-scruug/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Perfect Runestone",
+    "url" : "https://playorna.com/codex/items/perfect-runestone/"
+  }, {
+    "name" : "Runestone",
+    "url" : "https://playorna.com/codex/items/runestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/elite-balor-shield/",
+  "name" : "Elite Balor Shield",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 25,
+  "droppedBy" : [ {
+    "name" : "Elite Balor Marauder",
+    "url" : "https://playorna.com/codex/monsters/elite-balor-marauder/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/elite-nothren-shield/",
+  "name" : "Elite Nothren Shield",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "element" : "Water",
+  "wardPercentage" : 24,
+  "droppedBy" : [ {
+    "name" : "Elite Nothren Berserker",
+    "url" : "https://playorna.com/codex/monsters/elite-nothren-berserker/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Baldur",
+    "url" : "https://playorna.com/codex/items/baldur/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/esuss-pillar/",
+  "name" : "Esus's Pillar",
+  "tier" : 4,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 4,
+  "defense" : 30,
+  "resistance" : 30,
+  "adornmentSlots" : 2,
+  "immunities" : [ "Petrified" ],
+  "droppedBy" : [ {
+    "name" : "Esus of Fomoria",
+    "url" : "https://playorna.com/codex/bosses/esus-of-fomoria/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/everlasting-torch/",
+  "name" : "Everlasting Torch",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 2,
+  "foresight" : 3,
+  "viewDistancePercentage" : 20,
+  "monsterAttractionPercentage" : 31,
+  "causes" : [ "Burning" ],
+  "immunities" : [ "Blind" ],
+  "droppedBy" : [ {
+    "name" : "Age-Old Mimic",
+    "url" : "https://playorna.com/codex/raids/age-old-mimic/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/fairys-scroll/",
+  "name" : "Fairy's Scroll",
+  "tier" : 7,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "mana" : 182,
+  "wardPercentage" : -22,
+  "dexterity" : 64,
+  "foresight" : 28,
+  "droppedBy" : [ {
+    "name" : "Arisen Naggeneen",
+    "url" : "https://playorna.com/codex/raids/arisen-naggeneen/"
+  }, {
+    "name" : "Naggeneen",
+    "url" : "https://playorna.com/codex/raids/naggeneen/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Perfect Runestone",
+    "url" : "https://playorna.com/codex/items/perfect-runestone/"
+  }, {
+    "name" : "Greater Soul",
+    "url" : "https://playorna.com/codex/items/greater-soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/fairys-tanto/",
+  "name" : "Fairy's Tanto",
+  "tier" : 7,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : -25,
+  "attack" : 24,
+  "dexterity" : 24,
+  "foresight" : 30,
+  "criticalHitChance" : 2,
+  "causes" : [ "Poisoned" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Naggeneen",
+    "url" : "https://playorna.com/codex/raids/arisen-naggeneen/"
+  }, {
+    "name" : "Naggeneen",
+    "url" : "https://playorna.com/codex/raids/naggeneen/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Steel",
+    "url" : "https://playorna.com/codex/items/steel/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/fallen-shield/",
+  "name" : "Fallen Shield",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 24,
+  "wardPercentage" : 33,
+  "defense" : 12,
+  "resistance" : 12,
+  "immunities" : [ "Cursed" ],
+  "droppedBy" : [ {
+    "name" : "Mammon",
+    "url" : "https://playorna.com/codex/bosses/mammon/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Ortanite",
+    "url" : "https://playorna.com/codex/items/ortanite/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ferguss-hammer/",
+  "name" : "Fergus's Hammer",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 28,
+  "defense" : 90,
+  "resistance" : 90,
+  "adornmentSlots" : 2,
+  "goldBonusPercentage" : 100,
+  "droppedBy" : [ {
+    "name" : "Fergus",
+    "url" : "https://playorna.com/codex/monsters/fergus/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Iron",
+    "url" : "https://playorna.com/codex/items/iron/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/fey-arrows/",
+  "name" : "Fey Arrows",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : -75,
+  "attack" : 96,
+  "resistance" : 3,
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Runestone",
+    "url" : "https://playorna.com/codex/items/runestone/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/fey-bloodwarg-grimoire/",
+  "name" : "Fey Bloodwarg Grimoire",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "wardPercentage" : 24,
+  "magic" : 51,
+  "resistance" : 12,
+  "adornmentSlots" : 3,
+  "summonStatsPercentage" : 10,
+  "droppedBy" : [ {
+    "name" : "Fey Jormungandr",
+    "url" : "https://playorna.com/codex/raids/fey-jormungandr/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Hide",
+    "url" : "https://playorna.com/codex/items/hide/"
+  }, {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/fey-gerds-horsewhip/",
+  "name" : "Fey Gerd's Horsewhip",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : -5,
+  "defense" : 104,
+  "resistance" : 104,
+  "adornmentSlots" : 1,
+  "followerStatsPercentage" : 8,
+  "droppedBy" : [ {
+    "name" : "Fey Jormungandr",
+    "url" : "https://playorna.com/codex/raids/fey-jormungandr/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Platinum",
+    "url" : "https://playorna.com/codex/items/platinum/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Soul",
+    "url" : "https://playorna.com/codex/items/soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/fey-hels-feathers/",
+  "name" : "Fey Hel's Feathers",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : true,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : 25,
+  "criticalHitChance" : 3,
+  "adornmentSlots" : 2,
+  "causes" : [ "Poisoned", "Blight" ],
+  "droppedBy" : [ {
+    "name" : "Fey Jormungandr",
+    "url" : "https://playorna.com/codex/raids/fey-jormungandr/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Hide",
+    "url" : "https://playorna.com/codex/items/hide/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Greater Soul",
+    "url" : "https://playorna.com/codex/items/greater-soul/"
+  }, {
+    "name" : "Earthstone",
+    "url" : "https://playorna.com/codex/items/earthstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/fey-menjas-shield/",
+  "name" : "Fey Menja's Shield",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : 12,
+  "magic" : 44,
+  "resistance" : 220,
+  "adornmentSlots" : 1,
+  "immunities" : [ "Stunned" ],
+  "droppedBy" : [ {
+    "name" : "Fey Jormungandr",
+    "url" : "https://playorna.com/codex/raids/fey-jormungandr/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Platinum",
+    "url" : "https://playorna.com/codex/items/platinum/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Soul",
+    "url" : "https://playorna.com/codex/items/soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/fey-scroll/",
+  "name" : "Fey Scroll",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : -25,
+  "magic" : 56,
+  "foresight" : 40,
+  "upgradeMaterials" : [ {
+    "name" : "Perfect Runestone",
+    "url" : "https://playorna.com/codex/items/perfect-runestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/fey-spiritgarm-grimoire/",
+  "name" : "Fey Spiritgarm Grimoire",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "wardPercentage" : 24,
+  "magic" : 51,
+  "resistance" : 12,
+  "adornmentSlots" : 3,
+  "summonStatsPercentage" : 10,
+  "droppedBy" : [ {
+    "name" : "Fey Jormungandr",
+    "url" : "https://playorna.com/codex/raids/fey-jormungandr/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Hide",
+    "url" : "https://playorna.com/codex/items/hide/"
+  }, {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/fey-stonewarg-grimoire/",
+  "name" : "Fey Stonewarg Grimoire",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "wardPercentage" : 24,
+  "magic" : 51,
+  "resistance" : 12,
+  "adornmentSlots" : 3,
+  "summonStatsPercentage" : 10,
+  "droppedBy" : [ {
+    "name" : "Fey Jormungandr",
+    "url" : "https://playorna.com/codex/raids/fey-jormungandr/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Hide",
+    "url" : "https://playorna.com/codex/items/hide/"
+  }, {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/fey-surtrs-shield/",
+  "name" : "Fey Surtr's Shield",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : -74,
+  "defense" : 211,
+  "resistance" : 211,
+  "adornmentSlots" : 1,
+  "droppedBy" : [ {
+    "name" : "Fey Jormungandr",
+    "url" : "https://playorna.com/codex/raids/fey-jormungandr/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Platinum",
+    "url" : "https://playorna.com/codex/items/platinum/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Soul",
+    "url" : "https://playorna.com/codex/items/soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/finns-spear/",
+  "name" : "Finn's Spear",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 8,
+  "attack" : 12,
+  "dexterity" : 12,
+  "criticalHitChance" : 1,
+  "adornmentSlots" : 2,
+  "goldBonusPercentage" : 100,
+  "droppedBy" : [ {
+    "name" : "Finn",
+    "url" : "https://playorna.com/codex/monsters/finn/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Iron",
+    "url" : "https://playorna.com/codex/items/iron/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/fire-arrows/",
+  "name" : "Fire Arrows",
+  "tier" : 3,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "wardPercentage" : -25,
+  "attack" : 12,
+  "causes" : [ "Burning" ],
+  "upgradeMaterials" : [ {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  }, {
+    "name" : "Firestone",
+    "url" : "https://playorna.com/codex/items/firestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/fomor-shield/",
+  "name" : "Fomor Shield",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : 12,
+  "droppedBy" : [ {
+    "name" : "Fomor",
+    "url" : "https://playorna.com/codex/raids/fomor/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Steel",
+    "url" : "https://playorna.com/codex/items/steel/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/gamma-myrddin-shield/",
+  "name" : "Gamma Myrddin Shield",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "hp" : 124,
+  "wardPercentage" : 25,
+  "foresight" : 40,
+  "droppedBy" : [ {
+    "name" : "Arisen Merlin",
+    "url" : "https://playorna.com/codex/raids/arisen-merlin/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Perfect Runestone",
+    "url" : "https://playorna.com/codex/items/perfect-runestone/"
+  }, {
+    "name" : "Avalon Ore",
+    "url" : "https://playorna.com/codex/items/avalon-ore/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/gerds-horsewhip/",
+  "name" : "Gerd's Horsewhip",
+  "tier" : 8,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : -5,
+  "defense" : 78,
+  "resistance" : 78,
+  "adornmentSlots" : 1,
+  "followerStatsPercentage" : 8,
+  "droppedBy" : [ {
+    "name" : "Arisen Gerd",
+    "url" : "https://playorna.com/codex/raids/arisen-gerd/"
+  }, {
+    "name" : "Gerd",
+    "url" : "https://playorna.com/codex/raids/gerd/"
+  }, {
+    "name" : "Jormungandr",
+    "url" : "https://playorna.com/codex/raids/jormungandr/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Platinum",
+    "url" : "https://playorna.com/codex/items/platinum/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Soul",
+    "url" : "https://playorna.com/codex/items/soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/goibhniu-armguard/",
+  "name" : "Goibhniu Armguard",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 8,
+  "defense" : 26,
+  "resistance" : 26,
+  "adornmentSlots" : 2,
+  "immunities" : [ "Burning" ],
+  "droppedBy" : [ {
+    "name" : "Goibhniu of Fomoria",
+    "url" : "https://playorna.com/codex/bosses/goibhniu-of-fomoria/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/great-phoenician-shield/",
+  "name" : "Great Phoenician Shield",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "element" : "Arcane",
+  "wardPercentage" : 31,
+  "adornmentSlots" : 3,
+  "immunities" : [ "Burning", "Blind" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Phoenix",
+    "url" : "https://playorna.com/codex/raids/arisen-phoenix/"
+  }, {
+    "name" : "The Mightiest Mimic",
+    "url" : "https://playorna.com/codex/raids/the-mightiest-mimic/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Firestone",
+    "url" : "https://playorna.com/codex/items/firestone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/griffin-crested-shield/",
+  "name" : "Griffin Crested Shield",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "element" : "Dragon",
+  "wardPercentage" : 15,
+  "droppedBy" : [ {
+    "name" : "Griffin",
+    "url" : "https://playorna.com/codex/bosses/griffin/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Skystone",
+    "url" : "https://playorna.com/codex/items/skystone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/havels-old-shield/",
+  "name" : "Havel's Old Shield",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 48,
+  "wardPercentage" : 17,
+  "immunities" : [ "Petrified" ],
+  "droppedBy" : [ {
+    "name" : "Havel",
+    "url" : "https://playorna.com/codex/raids/havel/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Lightstone",
+    "url" : "https://playorna.com/codex/items/lightstone/"
+  }, {
+    "name" : "Greater Soul",
+    "url" : "https://playorna.com/codex/items/greater-soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/havels-shield/",
+  "name" : "Havel's Shield",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 48,
+  "wardPercentage" : 28,
+  "defense" : 22,
+  "resistance" : 22,
+  "immunities" : [ "Stunned", "Petrified" ],
+  "droppedBy" : [ {
+    "name" : "Havel",
+    "url" : "https://playorna.com/codex/raids/havel/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Lightstone",
+    "url" : "https://playorna.com/codex/items/lightstone/"
+  }, {
+    "name" : "Greater Soul",
+    "url" : "https://playorna.com/codex/items/greater-soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/heavy-arrows/",
+  "name" : "Heavy Arrows",
+  "tier" : 3,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "wardPercentage" : -25,
+  "attack" : 12,
+  "causes" : [ "Stunned" ],
+  "upgradeMaterials" : [ {
+    "name" : "Steel",
+    "url" : "https://playorna.com/codex/items/steel/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/heimdalls-shield/",
+  "name" : "Heimdall's Shield",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "element" : "Water",
+  "wardPercentage" : 26,
+  "immunities" : [ "Stunned" ],
+  "droppedBy" : [ {
+    "name" : "Heimdall",
+    "url" : "https://playorna.com/codex/bosses/heimdall/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Perfect Baldur",
+    "url" : "https://playorna.com/codex/items/perfect-baldur/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/hels-feathers/",
+  "name" : "Hel's Feathers",
+  "tier" : 5,
+  "warrior" : false,
+  "thief" : true,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : 11,
+  "adornmentSlots" : 1,
+  "causes" : [ "Poisoned", "Blight" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Hel",
+    "url" : "https://playorna.com/codex/raids/arisen-hel/"
+  }, {
+    "name" : "Hel",
+    "url" : "https://playorna.com/codex/raids/hel/"
+  }, {
+    "name" : "Jormungandr",
+    "url" : "https://playorna.com/codex/raids/jormungandr/"
+  }, {
+    "name" : "The Mightiest Mimic",
+    "url" : "https://playorna.com/codex/raids/the-mightiest-mimic/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Hide",
+    "url" : "https://playorna.com/codex/items/hide/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Soul",
+    "url" : "https://playorna.com/codex/items/soul/"
+  }, {
+    "name" : "Earthstone",
+    "url" : "https://playorna.com/codex/items/earthstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/high-phoenician-shield/",
+  "name" : "High Phoenician Shield",
+  "tier" : 7,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "element" : "Arcane",
+  "wardPercentage" : 22,
+  "adornmentSlots" : 3,
+  "immunities" : [ "Burning", "Blind" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Phoenix",
+    "url" : "https://playorna.com/codex/raids/arisen-phoenix/"
+  }, {
+    "name" : "Phoenix",
+    "url" : "https://playorna.com/codex/raids/phoenix/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Firestone",
+    "url" : "https://playorna.com/codex/items/firestone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ice-arrows/",
+  "name" : "Ice Arrows",
+  "tier" : 3,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "wardPercentage" : -25,
+  "attack" : 12,
+  "causes" : [ "Frozen" ],
+  "upgradeMaterials" : [ {
+    "name" : "Waterstone",
+    "url" : "https://playorna.com/codex/items/waterstone/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/iron-shield/",
+  "name" : "Iron Shield",
+  "tier" : 2,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "wardPercentage" : 5,
+  "upgradeMaterials" : [ {
+    "name" : "Iron",
+    "url" : "https://playorna.com/codex/items/iron/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/lass-of-the-lake/",
+  "name" : "Lass of the Lake",
+  "tier" : 6,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : -12,
+  "attack" : 22,
+  "defense" : -12,
+  "magic" : -12,
+  "resistance" : -12,
+  "droppedBy" : [ {
+    "name" : "Arisen Merlin",
+    "url" : "https://playorna.com/codex/raids/arisen-merlin/"
+  }, {
+    "name" : "Finesse",
+    "url" : "https://playorna.com/codex/raids/finesse/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Perfect Runestone",
+    "url" : "https://playorna.com/codex/items/perfect-runestone/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/lyonesse-shield/",
+  "name" : "Lyonesse Shield",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "wardPercentage" : 29,
+  "droppedBy" : [ {
+    "name" : "Lyonesse Knight",
+    "url" : "https://playorna.com/codex/monsters/lyonesse-knight/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Lyonite",
+    "url" : "https://playorna.com/codex/items/lyonite/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/machas-scroll/",
+  "name" : "Macha's Scroll",
+  "tier" : 8,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "mana" : 64,
+  "magic" : 64,
+  "resistance" : 64,
+  "foresight" : 32,
+  "immunities" : [ "Mag ↓", "T. Mag ↓", "T. Mag ↓↓" ],
+  "droppedBy" : [ {
+    "name" : "Sister Macha",
+    "url" : "https://playorna.com/codex/raids/sister-macha/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Greater Soul",
+    "url" : "https://playorna.com/codex/items/greater-soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/mages-scroll/",
+  "name" : "Mage's Scroll",
+  "tier" : 3,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : -5,
+  "magic" : 12,
+  "foresight" : 12,
+  "upgradeMaterials" : [ {
+    "name" : "Runestone",
+    "url" : "https://playorna.com/codex/items/runestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/mammons-sword/",
+  "name" : "Mammon's Sword",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "hp" : 50,
+  "mana" : 50,
+  "wardPercentage" : 25,
+  "attack" : 32,
+  "defense" : 32,
+  "magic" : 32,
+  "resistance" : 32,
+  "dexterity" : 32,
+  "foresight" : 20,
+  "criticalHitChance" : 2,
+  "adornmentSlots" : 3,
+  "viewDistancePercentage" : 20,
+  "gives" : [ "T. Att ↑ (2%)", "T. Mag ↑ (2%)", "T. Def ↑ (2%)", "T. Res ↑ (2%)" ],
+  "causes" : [ "T. Def ↓", "T. Att ↓", "T. Mag ↓", "T. Res ↓" ],
+  "upgradeMaterials" : [ {
+    "name" : "Ortanite",
+    "url" : "https://playorna.com/codex/items/ortanite/"
+  }, {
+    "name" : "Waterstone",
+    "url" : "https://playorna.com/codex/items/waterstone/"
+  }, {
+    "name" : "Lightningstone",
+    "url" : "https://playorna.com/codex/items/lightningstone/"
+  }, {
+    "name" : "Firestone",
+    "url" : "https://playorna.com/codex/items/firestone/"
+  }, {
+    "name" : "Earthstone",
+    "url" : "https://playorna.com/codex/items/earthstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/menjas-shield/",
+  "name" : "Menja's Shield",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : 5,
+  "magic" : 20,
+  "resistance" : 90,
+  "adornmentSlots" : 1,
+  "immunities" : [ "Stunned" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Menja",
+    "url" : "https://playorna.com/codex/raids/arisen-menja/"
+  }, {
+    "name" : "Jormungandr",
+    "url" : "https://playorna.com/codex/raids/jormungandr/"
+  }, {
+    "name" : "Menja",
+    "url" : "https://playorna.com/codex/raids/menja/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Platinum",
+    "url" : "https://playorna.com/codex/items/platinum/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Soul",
+    "url" : "https://playorna.com/codex/items/soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/merlins-scroll/",
+  "name" : "Merlin's Scroll",
+  "tier" : 6,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "mana" : 80,
+  "wardPercentage" : -25,
+  "foresight" : 24,
+  "causes" : [ "T. Att ↓" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Merlin",
+    "url" : "https://playorna.com/codex/raids/arisen-merlin/"
+  }, {
+    "name" : "Fallen Merlin",
+    "url" : "https://playorna.com/codex/raids/fallen-merlin/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Perfect Runestone",
+    "url" : "https://playorna.com/codex/items/perfect-runestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/mighty-griffin-shield/",
+  "name" : "Mighty Griffin Shield",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "element" : "Dragon",
+  "wardPercentage" : 28,
+  "droppedBy" : [ {
+    "name" : "Mighty Griffin",
+    "url" : "https://playorna.com/codex/bosses/mighty-griffin/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Skystone",
+    "url" : "https://playorna.com/codex/items/skystone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/mirror/",
+  "name" : "Mirror",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "mana" : 240,
+  "wardPercentage" : -100,
+  "resistance" : 60,
+  "upgradeMaterials" : [ {
+    "name" : "Greater Soul",
+    "url" : "https://playorna.com/codex/items/greater-soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/morrigans-scroll/",
+  "name" : "Morrigan's Scroll",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "mana" : 130,
+  "wardPercentage" : -50,
+  "magic" : 64,
+  "foresight" : 40,
+  "causes" : [ "T. Res ↓↓" ],
+  "droppedBy" : [ {
+    "name" : "The Morrigan",
+    "url" : "https://playorna.com/codex/raids/the-morrigan/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Nightstone",
+    "url" : "https://playorna.com/codex/items/nightstone/"
+  }, {
+    "name" : "Cursed Ortanite",
+    "url" : "https://playorna.com/codex/items/cursed-ortanite/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/mystic-katar/",
+  "name" : "Mystic Katar",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : 16,
+  "dexterity" : 20,
+  "adornmentSlots" : 3,
+  "gives" : [ "T. Att ↑ (5%)", "T. Mag ↑ (5%)" ],
+  "immunities" : [ "Burning", "Frozen", "Paralyzed", "Rot" ],
+  "droppedBy" : [ {
+    "name" : "The Mightiest Mimic",
+    "url" : "https://playorna.com/codex/raids/the-mightiest-mimic/"
+  }, {
+    "name" : "Young Apollyon",
+    "url" : "https://playorna.com/codex/raids/young-apollyon/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Waterstone",
+    "url" : "https://playorna.com/codex/items/waterstone/"
+  }, {
+    "name" : "Lightningstone",
+    "url" : "https://playorna.com/codex/items/lightningstone/"
+  }, {
+    "name" : "Firestone",
+    "url" : "https://playorna.com/codex/items/firestone/"
+  }, {
+    "name" : "Earthstone",
+    "url" : "https://playorna.com/codex/items/earthstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/nemans-protection/",
+  "name" : "Neman's Protection",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : 22,
+  "defense" : 48,
+  "resistance" : 48,
+  "immunities" : [ "Asleep" ],
+  "droppedBy" : [ {
+    "name" : "Sister Neman",
+    "url" : "https://playorna.com/codex/raids/sister-neman/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Titanium",
+    "url" : "https://playorna.com/codex/items/titanium/"
+  }, {
+    "name" : "Earthstone",
+    "url" : "https://playorna.com/codex/items/earthstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/nocturna-crested-shield/",
+  "name" : "Nocturna Crested Shield",
+  "tier" : 4,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 12,
+  "defense" : 60,
+  "resistance" : 60,
+  "adornmentSlots" : 2,
+  "followerStatsPercentage" : 2,
+  "summonStatsPercentage" : 2,
+  "droppedBy" : [ {
+    "name" : "King Fomor, Nocturna",
+    "url" : "https://playorna.com/codex/bosses/king-fomor-nocturna/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/north-star/",
+  "name" : "North Star",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "mana" : 40,
+  "wardPercentage" : 3,
+  "magic" : 40,
+  "luckBonusPercentage" : 4,
+  "viewDistancePercentage" : 20,
+  "gives" : [ "T. Att ↑ (3%)", "T. Mag ↑ (3%)", "T. Def ↑ (3%)", "T. Res ↑ (3%)", "T. Crit ↑ (3%)" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Ebon Scruug",
+    "url" : "https://playorna.com/codex/raids/arisen-ebon-scruug/"
+  }, {
+    "name" : "Ebon Scruug",
+    "url" : "https://playorna.com/codex/raids/ebon-scruug/"
+  }, {
+    "name" : "Scruug",
+    "url" : "https://playorna.com/codex/raids/scruug/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool-ef1c6cb2/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Runestone",
+    "url" : "https://playorna.com/codex/items/runestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/nothren-shield/",
+  "name" : "Nothren Shield",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "element" : "Water",
+  "wardPercentage" : 22,
+  "droppedBy" : [ {
+    "name" : "Nothren Berserker",
+    "url" : "https://playorna.com/codex/monsters/nothren-berserker/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Baldur",
+    "url" : "https://playorna.com/codex/items/baldur/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ogma/",
+  "name" : "Ogma",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 22,
+  "defense" : 75,
+  "resistance" : 75,
+  "adornmentSlots" : 2,
+  "immunities" : [ "Petrified" ],
+  "droppedBy" : [ {
+    "name" : "The Creator",
+    "url" : "https://playorna.com/codex/raids/the-creator/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/omega-myrddin-shield/",
+  "name" : "Omega Myrddin Shield",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "hp" : 180,
+  "wardPercentage" : 31,
+  "foresight" : 50,
+  "droppedBy" : [ {
+    "name" : "Arisen Merlin",
+    "url" : "https://playorna.com/codex/raids/arisen-merlin/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Perfect Runestone",
+    "url" : "https://playorna.com/codex/items/perfect-runestone/"
+  }, {
+    "name" : "Avalon Ore",
+    "url" : "https://playorna.com/codex/items/avalon-ore/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/parrying-dagger/",
+  "name" : "Parrying Dagger",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : -25,
+  "dexterity" : 32,
+  "criticalHitChance" : 2,
+  "causes" : [ "Bleeding" ],
+  "upgradeMaterials" : [ {
+    "name" : "Steel",
+    "url" : "https://playorna.com/codex/items/steel/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/phoenician-shield/",
+  "name" : "Phoenician Shield",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "element" : "Arcane",
+  "wardPercentage" : 18,
+  "immunities" : [ "Burning", "Blind" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Phoenix",
+    "url" : "https://playorna.com/codex/raids/arisen-phoenix/"
+  }, {
+    "name" : "Phoenix",
+    "url" : "https://playorna.com/codex/raids/phoenix/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Firestone",
+    "url" : "https://playorna.com/codex/items/firestone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/poison-arrows/",
+  "name" : "Poison Arrows",
+  "tier" : 3,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "wardPercentage" : -25,
+  "attack" : 12,
+  "causes" : [ "Poisoned" ],
+  "upgradeMaterials" : [ {
+    "name" : "Hide",
+    "url" : "https://playorna.com/codex/items/hide/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/polished-aegis/",
+  "name" : "Polished Aegis",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 64,
+  "wardPercentage" : 34,
+  "defense" : 18,
+  "immunities" : [ "Petrified" ],
+  "upgradeMaterials" : [ {
+    "name" : "Lightstone",
+    "url" : "https://playorna.com/codex/items/lightstone/"
+  }, {
+    "name" : "Greater Soul",
+    "url" : "https://playorna.com/codex/items/greater-soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/polished-mirror/",
+  "name" : "Polished Mirror",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "mana" : 360,
+  "wardPercentage" : -100,
+  "resistance" : 120,
+  "upgradeMaterials" : [ {
+    "name" : "Greater Soul",
+    "url" : "https://playorna.com/codex/items/greater-soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/purrlys-less-favourite-staff/",
+  "name" : "Purrly's Less Favourite Staff",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 30,
+  "attack" : 75,
+  "magic" : 75,
+  "adornmentSlots" : 2,
+  "followerStatsPercentage" : 8,
+  "summonStatsPercentage" : 8,
+  "immunities" : [ "Asleep", "Lulled" ],
+  "droppedBy" : [ {
+    "name" : "Purrly",
+    "url" : "https://playorna.com/codex/raids/purrly/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/purrlys-old-staff/",
+  "name" : "Purrly's Old Staff",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 24,
+  "attack" : 60,
+  "magic" : 60,
+  "adornmentSlots" : 2,
+  "followerStatsPercentage" : 8,
+  "summonStatsPercentage" : 8,
+  "immunities" : [ "Asleep", "Lulled" ],
+  "droppedBy" : [ {
+    "name" : "Purrly",
+    "url" : "https://playorna.com/codex/raids/purrly/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/realm-katar/",
+  "name" : "Realm Katar",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "attack" : 12,
+  "magic" : 12,
+  "dexterity" : 12,
+  "criticalHitChance" : 1,
+  "adornmentSlots" : 6,
+  "droppedBy" : [ {
+    "name" : "The Morrigan",
+    "url" : "https://playorna.com/codex/raids/the-morrigan/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Cursed Ortanite",
+    "url" : "https://playorna.com/codex/items/cursed-ortanite/"
+  }, {
+    "name" : "Realm Ore",
+    "url" : "https://playorna.com/codex/items/realm-ore/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/rhada-shade-greatshield/",
+  "name" : "Rhada Shade Greatshield",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "wardPercentage" : 28,
+  "adornmentSlots" : 2,
+  "immunities" : [ "Stunned" ],
+  "droppedBy" : [ {
+    "name" : "Shade of Rhada, the Great Shield",
+    "url" : "https://playorna.com/codex/bosses/shade-of-rhada-the-great-shield/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  }, {
+    "name" : "Stone",
+    "url" : "https://playorna.com/codex/items/stone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/rhada-shadow-greatshield/",
+  "name" : "Rhada Shadow Greatshield",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "wardPercentage" : 21,
+  "adornmentSlots" : 2,
+  "immunities" : [ "Stunned" ],
+  "droppedBy" : [ {
+    "name" : "Shadow of Rhada, the Great Shield",
+    "url" : "https://playorna.com/codex/bosses/shadow-of-rhada-the-great-shield/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  }, {
+    "name" : "Stone",
+    "url" : "https://playorna.com/codex/items/stone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/royal-shield/",
+  "name" : "Royal Shield",
+  "tier" : 3,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 9,
+  "dexterity" : 10,
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Soul",
+    "url" : "https://playorna.com/codex/items/soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/rune-shield/",
+  "name" : "Rune Shield",
+  "tier" : 2,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 4,
+  "resistance" : 16,
+  "droppedBy" : [ {
+    "name" : "Living Armor",
+    "url" : "https://playorna.com/codex/monsters/living-armor/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Runestone",
+    "url" : "https://playorna.com/codex/items/runestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/scroll/",
+  "name" : "Scroll",
+  "tier" : 2,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : -1,
+  "magic" : 6,
+  "foresight" : 8,
+  "upgradeMaterials" : [ {
+    "name" : "Runestone",
+    "url" : "https://playorna.com/codex/items/runestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/scroll-of-earth/",
+  "name" : "Scroll of Earth",
+  "tier" : 3,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : -5,
+  "magic" : 12,
+  "foresight" : 12,
+  "causes" : [ "Rot" ],
+  "upgradeMaterials" : [ {
+    "name" : "Earthstone",
+    "url" : "https://playorna.com/codex/items/earthstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/scroll-of-fire/",
+  "name" : "Scroll of Fire",
+  "tier" : 3,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : -5,
+  "magic" : 12,
+  "foresight" : 12,
+  "causes" : [ "Burning" ],
+  "upgradeMaterials" : [ {
+    "name" : "Firestone",
+    "url" : "https://playorna.com/codex/items/firestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/scroll-of-ice/",
+  "name" : "Scroll of Ice",
+  "tier" : 3,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : -5,
+  "magic" : 12,
+  "foresight" : 12,
+  "causes" : [ "Frozen" ],
+  "upgradeMaterials" : [ {
+    "name" : "Waterstone",
+    "url" : "https://playorna.com/codex/items/waterstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/scroll-of-lightning/",
+  "name" : "Scroll of Lightning",
+  "tier" : 3,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : -5,
+  "magic" : 12,
+  "foresight" : 12,
+  "causes" : [ "Paralyzed" ],
+  "upgradeMaterials" : [ {
+    "name" : "Lightningstone",
+    "url" : "https://playorna.com/codex/items/lightningstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/scroll-of-poison/",
+  "name" : "Scroll of Poison",
+  "tier" : 3,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : -5,
+  "magic" : 12,
+  "foresight" : 12,
+  "causes" : [ "Poisoned" ],
+  "upgradeMaterials" : [ {
+    "name" : "Earthstone",
+    "url" : "https://playorna.com/codex/items/earthstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/serpent-arrows/",
+  "name" : "Serpent Arrows",
+  "tier" : 10,
+  "warrior" : false,
+  "thief" : true,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "mana" : 40,
+  "wardPercentage" : 30,
+  "attack" : 20,
+  "criticalHitChance" : 2,
+  "adornmentSlots" : 2,
+  "droppedBy" : [ {
+    "name" : "Medusa",
+    "url" : "https://playorna.com/codex/bosses/medusa/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Hide",
+    "url" : "https://playorna.com/codex/items/hide/"
+  }, {
+    "name" : "Ortanite",
+    "url" : "https://playorna.com/codex/items/ortanite/"
+  }, {
+    "name" : "Leather",
+    "url" : "https://playorna.com/codex/items/leather/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/side-arm/",
+  "name" : "Side-arm",
+  "tier" : 2,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "wardPercentage" : -10,
+  "attack" : 8,
+  "upgradeMaterials" : [ {
+    "name" : "Iron",
+    "url" : "https://playorna.com/codex/items/iron/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/sorcerers-scroll/",
+  "name" : "Sorcerer's Scroll",
+  "tier" : 5,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "mana" : 80,
+  "wardPercentage" : -15,
+  "magic" : 24,
+  "foresight" : 20,
+  "upgradeMaterials" : [ {
+    "name" : "Runestone",
+    "url" : "https://playorna.com/codex/items/runestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/spiked-greatshield/",
+  "name" : "Spiked Greatshield",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 35,
+  "adornmentSlots" : 2,
+  "immunities" : [ "Stunned" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Judge Rhada",
+    "url" : "https://playorna.com/codex/raids/arisen-judge-rhada/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  }, {
+    "name" : "Stone",
+    "url" : "https://playorna.com/codex/items/stone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/spiritgarm-grimoire/",
+  "name" : "Spiritgarm Grimoire",
+  "tier" : 8,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "wardPercentage" : 19,
+  "magic" : 24,
+  "resistance" : 12,
+  "adornmentSlots" : 2,
+  "summonStatsPercentage" : 10,
+  "droppedBy" : [ {
+    "name" : "Arisen Fenja",
+    "url" : "https://playorna.com/codex/raids/arisen-fenja/"
+  }, {
+    "name" : "Fenja",
+    "url" : "https://playorna.com/codex/raids/fenja/"
+  }, {
+    "name" : "Jormungandr",
+    "url" : "https://playorna.com/codex/raids/jormungandr/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Hide",
+    "url" : "https://playorna.com/codex/items/hide/"
+  }, {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/stonewarg-grimoire/",
+  "name" : "Stonewarg Grimoire",
+  "tier" : 8,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "wardPercentage" : 19,
+  "magic" : 24,
+  "resistance" : 12,
+  "adornmentSlots" : 2,
+  "summonStatsPercentage" : 10,
+  "droppedBy" : [ {
+    "name" : "Arisen Fenja",
+    "url" : "https://playorna.com/codex/raids/arisen-fenja/"
+  }, {
+    "name" : "Fenja",
+    "url" : "https://playorna.com/codex/raids/fenja/"
+  }, {
+    "name" : "Jormungandr",
+    "url" : "https://playorna.com/codex/raids/jormungandr/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Hide",
+    "url" : "https://playorna.com/codex/items/hide/"
+  }, {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/storm-arrows/",
+  "name" : "Storm Arrows",
+  "tier" : 3,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "wardPercentage" : -25,
+  "attack" : 12,
+  "causes" : [ "Paralyzed" ],
+  "upgradeMaterials" : [ {
+    "name" : "Lightningstone",
+    "url" : "https://playorna.com/codex/items/lightningstone/"
+  }, {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/sumner-crested-shield/",
+  "name" : "Sumner Crested Shield",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 12,
+  "defense" : 95,
+  "resistance" : -80,
+  "adornmentSlots" : 2,
+  "followerStatsPercentage" : 2,
+  "summonStatsPercentage" : 2,
+  "droppedBy" : [ {
+    "name" : "King Fomor, Sumner",
+    "url" : "https://playorna.com/codex/bosses/king-fomor-sumner/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/surtrs-shield/",
+  "name" : "Surtr's Shield",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "wardPercentage" : -50,
+  "defense" : 78,
+  "resistance" : 78,
+  "adornmentSlots" : 1,
+  "droppedBy" : [ {
+    "name" : "Arisen Surtr",
+    "url" : "https://playorna.com/codex/raids/arisen-surtr/"
+  }, {
+    "name" : "Jormungandr",
+    "url" : "https://playorna.com/codex/raids/jormungandr/"
+  }, {
+    "name" : "Surtr",
+    "url" : "https://playorna.com/codex/raids/surtr/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Platinum",
+    "url" : "https://playorna.com/codex/items/platinum/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Soul",
+    "url" : "https://playorna.com/codex/items/soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/templar-shield/",
+  "name" : "Templar Shield",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 17,
+  "defense" : 32,
+  "upgradeMaterials" : [ {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Soul",
+    "url" : "https://playorna.com/codex/items/soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/tizona/",
+  "name" : "Tizona",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 30,
+  "causes" : [ "Def ↓", "Res ↓" ],
+  "droppedBy" : [ {
+    "name" : "Almighty Balin",
+    "url" : "https://playorna.com/codex/raids/almighty-balin/"
+  }, {
+    "name" : "Arisen Balin",
+    "url" : "https://playorna.com/codex/raids/arisen-balin/"
+  }, {
+    "name" : "The Mightiest Mimic",
+    "url" : "https://playorna.com/codex/raids/the-mightiest-mimic/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Avalon Ore",
+    "url" : "https://playorna.com/codex/items/avalon-ore/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/tower-shield/",
+  "name" : "Tower Shield",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 17,
+  "attack" : -20,
+  "defense" : 40,
+  "magic" : -20,
+  "resistance" : 40,
+  "upgradeMaterials" : [ {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Soul",
+    "url" : "https://playorna.com/codex/items/soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/true-aegis-of-athena/",
+  "name" : "True Aegis of Athena",
+  "tier" : 9,
+  "warrior" : false,
+  "thief" : true,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 48,
+  "wardPercentage" : 28,
+  "defense" : 22,
+  "resistance" : 22,
+  "immunities" : [ "Stunned", "Petrified", "Stasis" ],
+  "droppedBy" : [ {
+    "name" : "Noble Perseus",
+    "url" : "https://playorna.com/codex/raids/noble-perseus/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Lightstone",
+    "url" : "https://playorna.com/codex/items/lightstone/"
+  }, {
+    "name" : "Greater Soul",
+    "url" : "https://playorna.com/codex/items/greater-soul/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/valhallan-shield/",
+  "name" : "Valhallan Shield",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "element" : "Water",
+  "wardPercentage" : 26,
+  "droppedBy" : [ {
+    "name" : "Nothren Valkyrie",
+    "url" : "https://playorna.com/codex/monsters/nothren-valkyrie/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Baldur",
+    "url" : "https://playorna.com/codex/items/baldur/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/vulcan-buckler/",
+  "name" : "Vulcan Buckler",
+  "tier" : 8,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 21,
+  "resistance" : 56,
+  "immunities" : [ "Burning" ],
+  "droppedBy" : [ {
+    "name" : "Mimic King of Kings",
+    "url" : "https://playorna.com/codex/raids/mimic-king-of-kings/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool-ef1c6cb2/"
+  }, {
+    "name" : "The Mightiest Mimic",
+    "url" : "https://playorna.com/codex/raids/the-mightiest-mimic/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Firestone",
+    "url" : "https://playorna.com/codex/items/firestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/whisper/",
+  "name" : "Whisper",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "wardPercentage" : -25,
+  "attack" : 32,
+  "causes" : [ "Bleeding" ],
+  "upgradeMaterials" : [ {
+    "name" : "Iron",
+    "url" : "https://playorna.com/codex/items/iron/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/wintara-crested-shield/",
+  "name" : "Wintara Crested Shield",
+  "tier" : 4,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 12,
+  "defense" : -80,
+  "resistance" : 95,
+  "adornmentSlots" : 2,
+  "followerStatsPercentage" : 2,
+  "summonStatsPercentage" : 2,
+  "droppedBy" : [ {
+    "name" : "King Fomor, Wintara",
+    "url" : "https://playorna.com/codex/bosses/king-fomor-wintara/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Silver",
+    "url" : "https://playorna.com/codex/items/silver/"
+  }, {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Bone",
+    "url" : "https://playorna.com/codex/items/bone/"
+  }, {
+    "name" : "Silk",
+    "url" : "https://playorna.com/codex/items/silk/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/witchs-scroll/",
+  "name" : "Witch's Scroll",
+  "tier" : 6,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "mana" : 80,
+  "wardPercentage" : -25,
+  "foresight" : 24,
+  "causes" : [ "Poisoned", "Bleeding", "Blind", "Asleep", "Drenched", "Blight" ],
+  "droppedBy" : [ {
+    "name" : "Carman",
+    "url" : "https://playorna.com/codex/bosses/carman/"
+  }, {
+    "name" : "Carman of the Underworld",
+    "url" : "https://playorna.com/codex/bosses/carman-of-the-underworld/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Witchstone",
+    "url" : "https://playorna.com/codex/items/witchstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/wolven-tower-shield/",
+  "name" : "Wolven Tower Shield",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "wardPercentage" : 21,
+  "attack" : -40,
+  "defense" : 80,
+  "magic" : -40,
+  "resistance" : 80,
+  "droppedBy" : [ {
+    "name" : "Kerberos",
+    "url" : "https://playorna.com/codex/raids/kerberos/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Mythril",
+    "url" : "https://playorna.com/codex/items/mythril/"
+  }, {
+    "name" : "Wolf's Blood",
+    "url" : "https://playorna.com/codex/items/wolfs-blood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/wooden-shield/",
+  "name" : "Wooden Shield",
+  "tier" : 2,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "wardPercentage" : 5,
+  "droppedBy" : [ {
+    "name" : "Frightening Skeleton",
+    "url" : "https://playorna.com/codex/monsters/frightening-skeleton/"
+  }, {
+    "name" : "Skeleton",
+    "url" : "https://playorna.com/codex/monsters/skeleton/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Wood",
+    "url" : "https://playorna.com/codex/items/wood/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ymir-coiled-shield/",
+  "name" : "Ymir Coiled Shield",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "element" : "Dragon",
+  "wardPercentage" : 31,
+  "defense" : 90,
+  "resistance" : 90,
+  "droppedBy" : [ {
+    "name" : "Ymir Amphiptere",
+    "url" : "https://playorna.com/codex/bosses/ymir-amphiptere/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Draconite",
+    "url" : "https://playorna.com/codex/items/draconite/"
+  }, {
+    "name" : "Pure Draconite",
+    "url" : "https://playorna.com/codex/items/pure-draconite/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/zeta-myrddin-shield/",
+  "name" : "Zeta Myrddin Shield",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Off-hand",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "hp" : 136,
+  "wardPercentage" : 28,
+  "foresight" : 45,
+  "droppedBy" : [ {
+    "name" : "Arisen Merlin",
+    "url" : "https://playorna.com/codex/raids/arisen-merlin/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Perfect Runestone",
+    "url" : "https://playorna.com/codex/items/perfect-runestone/"
+  }, {
+    "name" : "Avalon Ore",
+    "url" : "https://playorna.com/codex/items/avalon-ore/"
+  } ]
+} ]

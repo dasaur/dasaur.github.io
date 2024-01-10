@@ -1,0 +1,2115 @@
+[ {
+  "url" : "https://playorna.com/codex/items/adamantine-amulet/",
+  "name" : "Adamantine Amulet",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "attack" : 60
+}, {
+  "url" : "https://playorna.com/codex/items/amulet/",
+  "name" : "Amulet",
+  "tier" : 1,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "attack" : 10
+}, {
+  "url" : "https://playorna.com/codex/items/ancient-dark-essence/",
+  "name" : "Ancient Dark Essence",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 80,
+  "mana" : 80,
+  "attack" : 20,
+  "defense" : 20,
+  "magic" : 20,
+  "resistance" : 20,
+  "gives" : [ "T. Dark Immune (15%)" ],
+  "droppedBy" : [ {
+    "name" : "Fallen Deity",
+    "url" : "https://playorna.com/codex/bosses/fallen-deity/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Perfect Runestone",
+    "url" : "https://playorna.com/codex/items/perfect-runestone/"
+  }, {
+    "name" : "Darkstone",
+    "url" : "https://playorna.com/codex/items/darkstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ancient-earth-essence/",
+  "name" : "Ancient Earth Essence",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 80,
+  "mana" : 80,
+  "attack" : 20,
+  "defense" : 20,
+  "magic" : 20,
+  "resistance" : 20,
+  "gives" : [ "T. Earth Immune (15%)" ],
+  "droppedBy" : [ {
+    "name" : "Fallen Deity",
+    "url" : "https://playorna.com/codex/bosses/fallen-deity/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Perfect Runestone",
+    "url" : "https://playorna.com/codex/items/perfect-runestone/"
+  }, {
+    "name" : "Earthstone",
+    "url" : "https://playorna.com/codex/items/earthstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ancient-eye/",
+  "name" : "Ancient Eye",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 22,
+  "mana" : 22,
+  "attack" : 8,
+  "defense" : 8,
+  "magic" : 8,
+  "resistance" : 8,
+  "droppedBy" : [ {
+    "name" : "Ancient Gazer",
+    "url" : "https://playorna.com/codex/monsters/ancient-gazer/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ancient-fire-essence/",
+  "name" : "Ancient Fire Essence",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 80,
+  "mana" : 80,
+  "attack" : 20,
+  "defense" : 20,
+  "magic" : 20,
+  "resistance" : 20,
+  "gives" : [ "T. Fire Immune (15%)" ],
+  "droppedBy" : [ {
+    "name" : "Fallen Deity",
+    "url" : "https://playorna.com/codex/bosses/fallen-deity/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Perfect Runestone",
+    "url" : "https://playorna.com/codex/items/perfect-runestone/"
+  }, {
+    "name" : "Firestone",
+    "url" : "https://playorna.com/codex/items/firestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ancient-holy-essence/",
+  "name" : "Ancient Holy Essence",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 80,
+  "mana" : 80,
+  "attack" : 20,
+  "defense" : 20,
+  "magic" : 20,
+  "resistance" : 20,
+  "gives" : [ "T. Holy Immune (15%)" ],
+  "droppedBy" : [ {
+    "name" : "Fallen Deity",
+    "url" : "https://playorna.com/codex/bosses/fallen-deity/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Lightstone",
+    "url" : "https://playorna.com/codex/items/lightstone/"
+  }, {
+    "name" : "Perfect Runestone",
+    "url" : "https://playorna.com/codex/items/perfect-runestone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ancient-lightning-essence/",
+  "name" : "Ancient Lightning Essence",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 80,
+  "mana" : 80,
+  "attack" : 20,
+  "defense" : 20,
+  "magic" : 20,
+  "resistance" : 20,
+  "gives" : [ "T. Lightning Immune (15%)" ],
+  "droppedBy" : [ {
+    "name" : "Fallen Deity",
+    "url" : "https://playorna.com/codex/bosses/fallen-deity/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Perfect Runestone",
+    "url" : "https://playorna.com/codex/items/perfect-runestone/"
+  }, {
+    "name" : "Lightningstone",
+    "url" : "https://playorna.com/codex/items/lightningstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ancient-trolls-charm/",
+  "name" : "Ancient Troll's Charm",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "hp" : 55,
+  "mana" : 25,
+  "attack" : 25,
+  "defense" : 25,
+  "magic" : 25,
+  "resistance" : 25,
+  "dexterity" : 8,
+  "droppedBy" : [ {
+    "name" : "Ancient Cyclops",
+    "url" : "https://playorna.com/codex/monsters/ancient-cyclops/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ancient-water-essence/",
+  "name" : "Ancient Water Essence",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 80,
+  "mana" : 80,
+  "attack" : 20,
+  "defense" : 20,
+  "magic" : 20,
+  "resistance" : 20,
+  "gives" : [ "T. Water Immune (15%)" ],
+  "droppedBy" : [ {
+    "name" : "Fallen Deity",
+    "url" : "https://playorna.com/codex/bosses/fallen-deity/"
+  } ],
+  "upgradeMaterials" : [ {
+    "name" : "Perfect Runestone",
+    "url" : "https://playorna.com/codex/items/perfect-runestone/"
+  }, {
+    "name" : "Waterstone",
+    "url" : "https://playorna.com/codex/items/waterstone/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ankous-ring/",
+  "name" : "Ankou's Ring",
+  "tier" : 7,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "element" : "Dark",
+  "immunities" : [ "Cursed", "Asleep" ],
+  "droppedBy" : [ {
+    "name" : "Ankou",
+    "url" : "https://playorna.com/codex/monsters/ankou/"
+  }, {
+    "name" : "Ankou",
+    "url" : "https://playorna.com/codex/bosses/ankou-eef994e0/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/antidote-pendant/",
+  "name" : "Antidote Pendant",
+  "tier" : 3,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "immunities" : [ "Poisoned" ]
+}, {
+  "url" : "https://playorna.com/codex/items/arch-gadget/",
+  "name" : "Arch-Gadget",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "defense" : 10,
+  "resistance" : 10,
+  "immunities" : [ "Def ↓", "Def ↓↓", "T. Def ↓", "T. Res ↓", "Res ↓↓", "Res ↓" ],
+  "droppedBy" : [ {
+    "name" : "Age-Old Mimic",
+    "url" : "https://playorna.com/codex/raids/age-old-mimic/"
+  }, {
+    "name" : "Arisen Cade",
+    "url" : "https://playorna.com/codex/raids/arisen-cade/"
+  }, {
+    "name" : "Ingenious Cade",
+    "url" : "https://playorna.com/codex/raids/ingenious-cade/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool-ef1c6cb2/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arch-gizmo/",
+  "name" : "Arch-Gizmo",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "magic" : 10,
+  "immunities" : [ "Att ↓", "T. Att ↓", "T. Mag ↓", "Mag ↓", "T. Mag ↓↓", "T. Att ↓↓", "T. Dex ↓" ],
+  "droppedBy" : [ {
+    "name" : "Age-Old Mimic",
+    "url" : "https://playorna.com/codex/raids/age-old-mimic/"
+  }, {
+    "name" : "Arisen Cade",
+    "url" : "https://playorna.com/codex/raids/arisen-cade/"
+  }, {
+    "name" : "Ingenious Cade",
+    "url" : "https://playorna.com/codex/raids/ingenious-cade/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool-ef1c6cb2/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-arch-gadget/",
+  "name" : "Arisen Arch-Gadget",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "defense" : 90,
+  "resistance" : 90,
+  "immunities" : [ "Def ↓", "Def ↓↓", "T. Def ↓", "T. Res ↓", "T. Def ↓↓", "T. Def ↓↓↓", "T. Res ↓↓", "Res ↓↓", "Res ↓" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Cade",
+    "url" : "https://playorna.com/codex/raids/arisen-cade/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-arch-gizmo/",
+  "name" : "Arisen Arch-Gizmo",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "attack" : 90,
+  "magic" : 90,
+  "immunities" : [ "Att ↓", "T. Att ↓", "T. Mag ↓", "Mag ↓", "T. Mag ↓↓", "T. Att ↓↓", "T. Dex ↓" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Cade",
+    "url" : "https://playorna.com/codex/raids/arisen-cade/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-fairys-ring/",
+  "name" : "Arisen Fairy's Ring",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "element" : "Arcane",
+  "mana" : 220,
+  "dexterity" : 72,
+  "droppedBy" : [ {
+    "name" : "Arisen Naggeneen",
+    "url" : "https://playorna.com/codex/raids/arisen-naggeneen/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool-ef1c6cb2/"
+  }, {
+    "name" : "The Mightiest Mimic",
+    "url" : "https://playorna.com/codex/raids/the-mightiest-mimic/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-monster-tome/",
+  "name" : "Arisen Monster Tome",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "hp" : -200,
+  "mana" : -200,
+  "attack" : -125,
+  "defense" : -125,
+  "magic" : -125,
+  "resistance" : -125,
+  "expBonusPercentage" : 75,
+  "droppedBy" : [ {
+    "name" : "Fafnir",
+    "url" : "https://playorna.com/codex/monsters/fafnir/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-ring/",
+  "name" : "Arisen Ring",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "attack" : 100,
+  "defense" : -200,
+  "magic" : 100,
+  "resistance" : -200,
+  "droppedBy" : [ {
+    "name" : "Fafnir",
+    "url" : "https://playorna.com/codex/monsters/fafnir/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/arisen-trevelyans-charm/",
+  "name" : "Arisen Trevelyan's Charm",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "droppedBy" : [ {
+    "name" : "Arisen Warlock Trevelyan",
+    "url" : "https://playorna.com/codex/raids/arisen-warlock-trevelyan/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/azure-crystal/",
+  "name" : "Azure Crystal",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "attack" : -50,
+  "defense" : -50,
+  "magic" : 50,
+  "resistance" : 50,
+  "droppedBy" : [ {
+    "name" : "Hati",
+    "url" : "https://playorna.com/codex/monsters/hati/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/azure-dioscuri-ring/",
+  "name" : "Azure Dioscuri Ring",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "droppedBy" : [ {
+    "name" : "The Dioscuri",
+    "url" : "https://playorna.com/codex/raids/the-dioscuri/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/bag-of-treats/",
+  "name" : "Bag of Treats",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "expBonusPercentage" : 4,
+  "goldBonusPercentage" : 6,
+  "ornBonusPercentage" : 4,
+  "luckBonusPercentage" : 11,
+  "droppedBy" : [ {
+    "name" : "Arisen Pumpkinhead",
+    "url" : "https://playorna.com/codex/raids/arisen-pumpkinhead/"
+  }, {
+    "name" : "Pumpkinhead",
+    "url" : "https://playorna.com/codex/raids/pumpkinhead/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool-ef1c6cb2/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/band-of-false-gods/",
+  "name" : "Band of False Gods",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "element" : "Arcane",
+  "expBonusPercentage" : 6,
+  "goldBonusPercentage" : 6,
+  "ornBonusPercentage" : 6,
+  "monsterAttractionPercentage" : 6,
+  "droppedBy" : [ {
+    "name" : "The Mightiest Mimic",
+    "url" : "https://playorna.com/codex/raids/the-mightiest-mimic/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/band-of-gods/",
+  "name" : "Band of Gods",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "element" : "Arcane",
+  "expBonusPercentage" : 50,
+  "goldBonusPercentage" : 50,
+  "ornBonusPercentage" : 50,
+  "monsterAttractionPercentage" : 50
+}, {
+  "url" : "https://playorna.com/codex/items/belt/",
+  "name" : "Belt",
+  "tier" : 1,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "dexterity" : 15
+}, {
+  "url" : "https://playorna.com/codex/items/belt-of-cerus/",
+  "name" : "Belt of Cerus",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "element" : "Fire",
+  "hp" : 100,
+  "immunities" : [ "Burning" ],
+  "droppedBy" : [ {
+    "name" : "Cerus",
+    "url" : "https://playorna.com/codex/raids/cerus/"
+  }, {
+    "name" : "Mimic King of Kings",
+    "url" : "https://playorna.com/codex/raids/mimic-king-of-kings/"
+  }, {
+    "name" : "The Mightiest Mimic",
+    "url" : "https://playorna.com/codex/raids/the-mightiest-mimic/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/beowulfs-charm/",
+  "name" : "Beowulf's Charm",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "hp" : 60,
+  "mana" : 60,
+  "followerActPercentage" : -5,
+  "followerStatsPercentage" : 25,
+  "droppedBy" : [ {
+    "name" : "Fallen Beowulf",
+    "url" : "https://playorna.com/codex/bosses/fallen-beowulf/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/blight-pendant/",
+  "name" : "Blight Pendant",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "immunities" : [ "Blight" ]
+}, {
+  "url" : "https://playorna.com/codex/items/blue-crystal/",
+  "name" : "Blue Crystal",
+  "tier" : 3,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "mana" : 50
+}, {
+  "url" : "https://playorna.com/codex/items/blue-gem/",
+  "name" : "Blue Gem",
+  "tier" : 2,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "mana" : 25,
+  "droppedBy" : [ {
+    "name" : "Blue Flame",
+    "url" : "https://playorna.com/codex/monsters/blue-flame/"
+  }, {
+    "name" : "Evil Eyes",
+    "url" : "https://playorna.com/codex/monsters/evil-eyes/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/briny-pendant/",
+  "name" : "Briny Pendant",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "immunities" : [ "Poisoned", "Rot", "Toxic", "Blight" ],
+  "droppedBy" : [ {
+    "name" : "Kraken",
+    "url" : "https://playorna.com/codex/bosses/kraken/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/carls-ring/",
+  "name" : "Carl's Ring",
+  "tier" : 1,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "hp" : 10,
+  "mana" : 10,
+  "attack" : 5,
+  "defense" : 5
+}, {
+  "url" : "https://playorna.com/codex/items/carls-ring-646f22f4/",
+  "name" : "Carl's Ring",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "hp" : 200,
+  "mana" : 200,
+  "wardPercentage" : 1,
+  "attack" : 72,
+  "defense" : 36,
+  "magic" : 72,
+  "resistance" : 36,
+  "dexterity" : 24,
+  "immunities" : [ "Lulled" ],
+  "droppedBy" : [ {
+    "name" : "The Mightiest Mimic",
+    "url" : "https://playorna.com/codex/raids/the-mightiest-mimic/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/coin-purse/",
+  "name" : "Coin Purse",
+  "tier" : 3,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "goldBonusPercentage" : 6,
+  "droppedBy" : [ {
+    "name" : "Great Mimic",
+    "url" : "https://playorna.com/codex/monsters/great-mimic/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/crimson-eye/",
+  "name" : "Crimson Eye",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 50,
+  "mana" : 25,
+  "attack" : 30,
+  "defense" : 30,
+  "magic" : 30,
+  "resistance" : 30,
+  "dexterity" : 10,
+  "droppedBy" : [ {
+    "name" : "Crimson Gazer",
+    "url" : "https://playorna.com/codex/monsters/crimson-gazer/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/crystal-eye/",
+  "name" : "Crystal Eye",
+  "tier" : 3,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 10,
+  "mana" : 10,
+  "attack" : 2,
+  "defense" : 2,
+  "magic" : 2,
+  "resistance" : 2,
+  "droppedBy" : [ {
+    "name" : "Evil Eye",
+    "url" : "https://playorna.com/codex/monsters/evil-eye/"
+  }, {
+    "name" : "Evil Eyes",
+    "url" : "https://playorna.com/codex/monsters/evil-eyes/"
+  }, {
+    "name" : "Gazer",
+    "url" : "https://playorna.com/codex/monsters/gazer/"
+  }, {
+    "name" : "Great Mimic",
+    "url" : "https://playorna.com/codex/monsters/great-mimic/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/cursed-monster-tome/",
+  "name" : "Cursed Monster Tome",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "hp" : -100,
+  "mana" : -100,
+  "attack" : -25,
+  "defense" : -25,
+  "magic" : -25,
+  "resistance" : -25,
+  "expBonusPercentage" : 25,
+  "droppedBy" : [ {
+    "name" : "Fafnir",
+    "url" : "https://playorna.com/codex/bosses/fafnir-66402ab7/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/cursed-ring/",
+  "name" : "Cursed Ring",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "attack" : 50,
+  "defense" : -100,
+  "magic" : 50,
+  "resistance" : -100,
+  "droppedBy" : [ {
+    "name" : "Fafnir",
+    "url" : "https://playorna.com/codex/bosses/fafnir-66402ab7/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/dangys-house-key/",
+  "name" : "Dangy's House Key",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "hp" : 200,
+  "mana" : 200,
+  "wardPercentage" : 1,
+  "attack" : 72,
+  "defense" : 36,
+  "magic" : 72,
+  "resistance" : 36,
+  "dexterity" : 24,
+  "immunities" : [ "Lulled" ],
+  "droppedBy" : [ {
+    "name" : "Dangy",
+    "url" : "https://playorna.com/codex/raids/dangy/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/dioscuri-magic-ring/",
+  "name" : "Dioscuri Magic Ring",
+  "tier" : 5,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "hp" : -50,
+  "attack" : -100,
+  "defense" : -50,
+  "magic" : 100,
+  "droppedBy" : [ {
+    "name" : "Castor",
+    "url" : "https://playorna.com/codex/bosses/castor/"
+  }, {
+    "name" : "The Dioscuri",
+    "url" : "https://playorna.com/codex/raids/the-dioscuri/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool-ef1c6cb2/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/dioscuri-ring/",
+  "name" : "Dioscuri Ring",
+  "tier" : 5,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "mana" : -50,
+  "attack" : 100,
+  "magic" : -100,
+  "resistance" : -50,
+  "droppedBy" : [ {
+    "name" : "Pollux",
+    "url" : "https://playorna.com/codex/bosses/pollux/"
+  }, {
+    "name" : "The Dioscuri",
+    "url" : "https://playorna.com/codex/raids/the-dioscuri/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool-ef1c6cb2/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/draconian-amulet/",
+  "name" : "Draconian Amulet",
+  "tier" : 2,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 30,
+  "mana" : 20
+}, {
+  "url" : "https://playorna.com/codex/items/dragoons-charm/",
+  "name" : "Dragoon's Charm",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "followerActPercentage" : 2,
+  "followerStatsPercentage" : 5
+}, {
+  "url" : "https://playorna.com/codex/items/earthen-belt/",
+  "name" : "Earthen Belt",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "element" : "Earthen",
+  "droppedBy" : [ {
+    "name" : "Legionnaire",
+    "url" : "https://playorna.com/codex/monsters/legionnaire/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ectoplasm/",
+  "name" : "Ectoplasm",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "element" : "Physical",
+  "attack" : -40,
+  "defense" : -40,
+  "magic" : -40,
+  "resistance" : -40,
+  "monsterAttractionPercentage" : 50,
+  "gives" : [ "Asleep (75%)" ],
+  "droppedBy" : [ {
+    "name" : "Spooky Ghost",
+    "url" : "https://playorna.com/codex/bosses/spooky-ghost/"
+  }, {
+    "name" : "Terrifying Ghost",
+    "url" : "https://playorna.com/codex/bosses/terrifying-ghost/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/enchanted-skull/",
+  "name" : "Enchanted Skull",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "monsterAttractionPercentage" : 20,
+  "droppedBy" : [ {
+    "name" : "Undead Golem",
+    "url" : "https://playorna.com/codex/bosses/undead-golem-b7ec8937/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/fairys-ring/",
+  "name" : "Fairy's Ring",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "element" : "Arcane",
+  "mana" : 200,
+  "dexterity" : 64,
+  "droppedBy" : [ {
+    "name" : "Arisen Naggeneen",
+    "url" : "https://playorna.com/codex/raids/arisen-naggeneen/"
+  }, {
+    "name" : "Naggeneen",
+    "url" : "https://playorna.com/codex/raids/naggeneen/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/fancy-belt/",
+  "name" : "Fancy Belt",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 90,
+  "mana" : 45,
+  "luckBonusPercentage" : 4,
+  "droppedBy" : [ {
+    "name" : "Arisen Ebon Scruug",
+    "url" : "https://playorna.com/codex/raids/arisen-ebon-scruug/"
+  }, {
+    "name" : "Ebon Scruug",
+    "url" : "https://playorna.com/codex/raids/ebon-scruug/"
+  }, {
+    "name" : "Scruug",
+    "url" : "https://playorna.com/codex/raids/scruug/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/fey-eye/",
+  "name" : "Fey Eye",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 32,
+  "mana" : 32,
+  "attack" : 14,
+  "defense" : 14,
+  "magic" : 14,
+  "resistance" : 14,
+  "dexterity" : 14,
+  "immunities" : [ "Blind" ],
+  "droppedBy" : [ {
+    "name" : "Fey Gazer",
+    "url" : "https://playorna.com/codex/raids/fey-gazer/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/flame-belt/",
+  "name" : "Flame Belt",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "element" : "Fire",
+  "droppedBy" : [ {
+    "name" : "Scorcher",
+    "url" : "https://playorna.com/codex/monsters/scorcher/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/freyjas-charm/",
+  "name" : "Freyja's Charm",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "followerActPercentage" : 4,
+  "followerStatsPercentage" : 10,
+  "droppedBy" : [ {
+    "name" : "Fallen Freyja",
+    "url" : "https://playorna.com/codex/monsters/fallen-freyja/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/frost-belt/",
+  "name" : "Frost Belt",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "element" : "Water",
+  "droppedBy" : [ {
+    "name" : "Frost Mage",
+    "url" : "https://playorna.com/codex/monsters/frost-mage/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/gadget/",
+  "name" : "Gadget",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "defense" : 10,
+  "resistance" : 10,
+  "immunities" : [ "Def ↓", "Def ↓↓", "T. Def ↓" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Cade",
+    "url" : "https://playorna.com/codex/raids/arisen-cade/"
+  }, {
+    "name" : "Ingenious Cade",
+    "url" : "https://playorna.com/codex/raids/ingenious-cade/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/gizmo/",
+  "name" : "Gizmo",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "magic" : 10,
+  "immunities" : [ "Att ↓", "Mag ↓", "T. Att ↓", "T. Mag ↓" ],
+  "droppedBy" : [ {
+    "name" : "Arisen Cade",
+    "url" : "https://playorna.com/codex/raids/arisen-cade/"
+  }, {
+    "name" : "Ingenious Cade",
+    "url" : "https://playorna.com/codex/raids/ingenious-cade/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/golden-crystal/",
+  "name" : "Golden Crystal",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "attack" : 50,
+  "defense" : 50,
+  "magic" : -50,
+  "resistance" : -50,
+  "droppedBy" : [ {
+    "name" : "Skoll",
+    "url" : "https://playorna.com/codex/monsters/skoll/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/great-monster-tome/",
+  "name" : "Great Monster Tome",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "expBonusPercentage" : 11,
+  "droppedBy" : [ {
+    "name" : "Fomorian Mage",
+    "url" : "https://playorna.com/codex/monsters/fomorian-mage/"
+  }, {
+    "name" : "Great Mimic",
+    "url" : "https://playorna.com/codex/monsters/great-mimic/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/green-crystal/",
+  "name" : "Green Crystal",
+  "tier" : 3,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "magic" : 25,
+  "droppedBy" : [ {
+    "name" : "Gazer",
+    "url" : "https://playorna.com/codex/monsters/gazer/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/green-gem/",
+  "name" : "Green Gem",
+  "tier" : 2,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "magic" : 10,
+  "droppedBy" : [ {
+    "name" : "Evil Eyes",
+    "url" : "https://playorna.com/codex/monsters/evil-eyes/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/hallowed-monster-tome/",
+  "name" : "Hallowed Monster Tome",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "expBonusPercentage" : 13,
+  "droppedBy" : [ {
+    "name" : "Arisen Pumpkinhead",
+    "url" : "https://playorna.com/codex/raids/arisen-pumpkinhead/"
+  }, {
+    "name" : "Pumpkinhead",
+    "url" : "https://playorna.com/codex/raids/pumpkinhead/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/hermes-coin-purse/",
+  "name" : "Hermes' Coin Purse",
+  "tier" : 1,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "goldBonusPercentage" : 15
+}, {
+  "url" : "https://playorna.com/codex/items/immortals-ring/",
+  "name" : "Immortal's Ring",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "hp" : 500,
+  "mana" : -90,
+  "wardPercentage" : 1,
+  "attack" : -24,
+  "defense" : -24,
+  "magic" : -24,
+  "resistance" : -24,
+  "dexterity" : -24,
+  "criticalHitChance" : 1,
+  "droppedBy" : [ {
+    "name" : "Immortal Lord",
+    "url" : "https://playorna.com/codex/bosses/immortal-lord-418e5cff/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/iron-ring/",
+  "name" : "Iron Ring",
+  "tier" : 1,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "defense" : 10
+}, {
+  "url" : "https://playorna.com/codex/items/lantern/",
+  "name" : "Lantern",
+  "tier" : 2,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "viewDistancePercentage" : 20,
+  "monsterAttractionPercentage" : 11,
+  "droppedBy" : [ {
+    "name" : "Great Mimic",
+    "url" : "https://playorna.com/codex/monsters/great-mimic/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/lasting-lantern/",
+  "name" : "Lasting Lantern",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "luckBonusPercentage" : 4,
+  "viewDistancePercentage" : 20,
+  "monsterAttractionPercentage" : 100,
+  "droppedBy" : [ {
+    "name" : "Arisen Ebon Scruug",
+    "url" : "https://playorna.com/codex/raids/arisen-ebon-scruug/"
+  }, {
+    "name" : "Ebon Scruug",
+    "url" : "https://playorna.com/codex/raids/ebon-scruug/"
+  }, {
+    "name" : "Scruug",
+    "url" : "https://playorna.com/codex/raids/scruug/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/leather-belt/",
+  "name" : "Leather Belt",
+  "tier" : 1,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "dexterity" : 30,
+  "upgradeMaterials" : [ {
+    "name" : "Leather",
+    "url" : "https://playorna.com/codex/items/leather/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/lordly-monster-tome/",
+  "name" : "Lordly Monster Tome",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "expBonusPercentage" : 13,
+  "droppedBy" : [ {
+    "name" : "Fomorian Lord",
+    "url" : "https://playorna.com/codex/bosses/fomorian-lord/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/lovers-lost/",
+  "name" : "Lover's Lost",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "monsterAttractionPercentage" : 200
+}, {
+  "url" : "https://playorna.com/codex/items/lugus-gauntlet/",
+  "name" : "Lugus Gauntlet",
+  "tier" : 7,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "gives" : [ "T. Mag ↑↑↑ (3%)", "T. Att ↑↑↑ (3%)" ],
+  "droppedBy" : [ {
+    "name" : "Grand Knight Lugus",
+    "url" : "https://playorna.com/codex/raids/grand-knight-lugus/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/maras-blessing/",
+  "name" : "Mara's Blessing",
+  "tier" : 3,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "viewDistancePercentage" : 20
+}, {
+  "url" : "https://playorna.com/codex/items/merlins-ring/",
+  "name" : "Merlin's Ring",
+  "tier" : 4,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "mana" : 24,
+  "attack" : -110,
+  "magic" : 64,
+  "droppedBy" : [ {
+    "name" : "Arisen Merlin",
+    "url" : "https://playorna.com/codex/raids/arisen-merlin/"
+  }, {
+    "name" : "Fallen Merlin",
+    "url" : "https://playorna.com/codex/raids/fallen-merlin/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/midnight-eye/",
+  "name" : "Midnight Eye",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 50,
+  "mana" : 50,
+  "viewDistancePercentage" : 20,
+  "droppedBy" : [ {
+    "name" : "Midnight Gazer",
+    "url" : "https://playorna.com/codex/monsters/midnight-gazer/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/monster-tome/",
+  "name" : "Monster Tome",
+  "tier" : 2,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "expBonusPercentage" : 6,
+  "droppedBy" : [ {
+    "name" : "Draconian Lord",
+    "url" : "https://playorna.com/codex/bosses/draconian-lord-4938a8df668fd665508d59b6b053a26d/"
+  }, {
+    "name" : "Draconian Mage",
+    "url" : "https://playorna.com/codex/monsters/draconian-mage/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/mystics-ring/",
+  "name" : "Mystic's Ring",
+  "tier" : 4,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "attack" : 50,
+  "magic" : -100,
+  "droppedBy" : [ {
+    "name" : "Great Ushi-oni",
+    "url" : "https://playorna.com/codex/monsters/great-ushi-oni/"
+  }, {
+    "name" : "Ushi-oni",
+    "url" : "https://playorna.com/codex/monsters/ushi-oni/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/mythril-amulet/",
+  "name" : "Mythril Amulet",
+  "tier" : 3,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "attack" : 30
+}, {
+  "url" : "https://playorna.com/codex/items/mythril-ring/",
+  "name" : "Mythril Ring",
+  "tier" : 3,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "defense" : 40
+}, {
+  "url" : "https://playorna.com/codex/items/naggeneens-belt/",
+  "name" : "Naggeneen's Belt",
+  "tier" : 7,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "mana" : 50,
+  "dexterity" : 50,
+  "droppedBy" : [ {
+    "name" : "Arisen Naggeneen",
+    "url" : "https://playorna.com/codex/raids/arisen-naggeneen/"
+  }, {
+    "name" : "Naggeneen",
+    "url" : "https://playorna.com/codex/raids/naggeneen/"
+  }, {
+    "name" : "The Mightiest Mimic",
+    "url" : "https://playorna.com/codex/raids/the-mightiest-mimic/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/omega-riftlock/",
+  "name" : "Omega Riftlock",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "wardPercentage" : 3,
+  "dexterity" : 12
+}, {
+  "url" : "https://playorna.com/codex/items/platinum-amulet/",
+  "name" : "Platinum Amulet",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "attack" : 40
+}, {
+  "url" : "https://playorna.com/codex/items/presents/",
+  "name" : "Presents!",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "luckBonusPercentage" : 25,
+  "droppedBy" : [ {
+    "name" : "Arisen Ebon Scruug",
+    "url" : "https://playorna.com/codex/raids/arisen-ebon-scruug/"
+  }, {
+    "name" : "Ebon Scruug",
+    "url" : "https://playorna.com/codex/raids/ebon-scruug/"
+  }, {
+    "name" : "Scruug",
+    "url" : "https://playorna.com/codex/raids/scruug/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool-ef1c6cb2/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/red-crystal/",
+  "name" : "Red Crystal",
+  "tier" : 3,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : 50,
+  "droppedBy" : [ {
+    "name" : "Greater Vampire",
+    "url" : "https://playorna.com/codex/monsters/greater-vampire/"
+  }, {
+    "name" : "Vampire Lord",
+    "url" : "https://playorna.com/codex/bosses/vampire-lord/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/red-gem/",
+  "name" : "Red Gem",
+  "tier" : 2,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "hp" : 25,
+  "droppedBy" : [ {
+    "name" : "Blue Flame",
+    "url" : "https://playorna.com/codex/monsters/blue-flame/"
+  }, {
+    "name" : "Evil Eyes",
+    "url" : "https://playorna.com/codex/monsters/evil-eyes/"
+  }, {
+    "name" : "Flame",
+    "url" : "https://playorna.com/codex/monsters/flame/"
+  }, {
+    "name" : "Vampire",
+    "url" : "https://playorna.com/codex/monsters/vampire/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ring-of-annwn/",
+  "name" : "Ring of Annwn",
+  "tier" : 7,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "immunities" : [ "Burning", "Frozen", "Paralyzed", "Rot" ],
+  "droppedBy" : [ {
+    "name" : "Fallen Ra, the Seer",
+    "url" : "https://playorna.com/codex/bosses/fallen-ra-the-seer/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ring-of-dawn/",
+  "name" : "Ring of Dawn",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "dexterity" : 122,
+  "immunities" : [ "T. Dex ↓" ],
+  "droppedBy" : [ {
+    "name" : "Age-Old Mimic",
+    "url" : "https://playorna.com/codex/raids/age-old-mimic/"
+  }, {
+    "name" : "King of Ljosalfar",
+    "url" : "https://playorna.com/codex/raids/king-of-ljosalfar/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool-ef1c6cb2/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ring-of-day/",
+  "name" : "Ring of Day",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "defense" : 10,
+  "resistance" : 10,
+  "immunities" : [ "Def ↓", "Def ↓↓", "T. Def ↓", "T. Res ↓", "T. Def ↓↓", "T. Res ↓↓", "Res ↓↓", "Res ↓" ],
+  "droppedBy" : [ {
+    "name" : "Age-Old Mimic",
+    "url" : "https://playorna.com/codex/raids/age-old-mimic/"
+  }, {
+    "name" : "King of Ljosalfar",
+    "url" : "https://playorna.com/codex/raids/king-of-ljosalfar/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool-ef1c6cb2/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ring-of-dusk/",
+  "name" : "Ring of Dusk",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "mana" : 180,
+  "droppedBy" : [ {
+    "name" : "Queen of Dokkalfar",
+    "url" : "https://playorna.com/codex/bosses/queen-of-dokkalfar/"
+  }, {
+    "name" : "Scruug",
+    "url" : "https://playorna.com/codex/raids/scruug/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool-ef1c6cb2/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ring-of-night/",
+  "name" : "Ring of Night",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "immunities" : [ "Att ↓", "T. Att ↓", "T. Mag ↓", "Mag ↓", "T. Mag ↓↓", "T. Att ↓↓" ],
+  "droppedBy" : [ {
+    "name" : "Queen of Dokkalfar",
+    "url" : "https://playorna.com/codex/bosses/queen-of-dokkalfar/"
+  }, {
+    "name" : "Scruug",
+    "url" : "https://playorna.com/codex/raids/scruug/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool-ef1c6cb2/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ring-of-restraint/",
+  "name" : "Ring of Restraint",
+  "tier" : 2,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "expBonusPercentage" : -99,
+  "goldBonusPercentage" : 4,
+  "ornBonusPercentage" : 4,
+  "luckBonusPercentage" : 4,
+  "droppedBy" : [ {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool-ef1c6cb2/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/ring-of-sacrifice/",
+  "name" : "Ring of Sacrifice",
+  "tier" : 5,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "hp" : -100,
+  "mana" : -100,
+  "attack" : -25,
+  "defense" : -25,
+  "magic" : -25,
+  "resistance" : -25
+}, {
+  "url" : "https://playorna.com/codex/items/rosas-brooch/",
+  "name" : "Rosa's Brooch",
+  "tier" : 7,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "foresight" : 20,
+  "droppedBy" : [ {
+    "name" : "Enlightened Queen",
+    "url" : "https://playorna.com/codex/bosses/enlightened-queen/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/shamans-charm/",
+  "name" : "Shaman's Charm",
+  "tier" : 2,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false
+}, {
+  "url" : "https://playorna.com/codex/items/silver-amulet/",
+  "name" : "Silver Amulet",
+  "tier" : 2,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "attack" : 20
+}, {
+  "url" : "https://playorna.com/codex/items/spellswords-ring/",
+  "name" : "Spellsword's Ring",
+  "tier" : 4,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : false,
+  "summoner" : false,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "attack" : -100,
+  "magic" : 50,
+  "droppedBy" : [ {
+    "name" : "Gorgon",
+    "url" : "https://playorna.com/codex/monsters/gorgon/"
+  }, {
+    "name" : "Lich",
+    "url" : "https://playorna.com/codex/monsters/lich/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/steadfast-charm/",
+  "name" : "Steadfast Charm",
+  "tier" : 3,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false
+}, {
+  "url" : "https://playorna.com/codex/items/steady-pendant/",
+  "name" : "Steady Pendant",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "immunities" : [ "Stunned" ]
+}, {
+  "url" : "https://playorna.com/codex/items/steel-belt/",
+  "name" : "Steel Belt",
+  "tier" : 2,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "defense" : 10,
+  "dexterity" : 40
+}, {
+  "url" : "https://playorna.com/codex/items/steel-ring/",
+  "name" : "Steel Ring",
+  "tier" : 2,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "defense" : 10
+}, {
+  "url" : "https://playorna.com/codex/items/stone-pendant/",
+  "name" : "Stone Pendant",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "immunities" : [ "Petrified" ],
+  "droppedBy" : [ {
+    "name" : "Cockatrice",
+    "url" : "https://playorna.com/codex/bosses/cockatrice/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/storm-belt/",
+  "name" : "Storm Belt",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "element" : "Lightning",
+  "droppedBy" : [ {
+    "name" : "Storm Knight",
+    "url" : "https://playorna.com/codex/monsters/storm-knight/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/thieves-ring/",
+  "name" : "Thieve's Ring",
+  "tier" : 1,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "goldBonusPercentage" : 25
+}, {
+  "url" : "https://playorna.com/codex/items/timeless-pendant/",
+  "name" : "Timeless Pendant",
+  "tier" : 7,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "immunities" : [ "Stasis" ]
+}, {
+  "url" : "https://playorna.com/codex/items/trevelyans-charm/",
+  "name" : "Trevelyan's Charm",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "droppedBy" : [ {
+    "name" : "Arisen Warlock Trevelyan",
+    "url" : "https://playorna.com/codex/raids/arisen-warlock-trevelyan/"
+  }, {
+    "name" : "Fallen Warlock Trevelyan",
+    "url" : "https://playorna.com/codex/raids/fallen-warlock-trevelyan/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/trolls-charm/",
+  "name" : "Troll's Charm",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "hp" : 50,
+  "mana" : 20,
+  "attack" : 20,
+  "defense" : 20,
+  "magic" : 20,
+  "resistance" : 20,
+  "dexterity" : 5,
+  "droppedBy" : [ {
+    "name" : "Troll",
+    "url" : "https://playorna.com/codex/bosses/troll/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/unfelled-concord/",
+  "name" : "Unfelled Concord",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "wardPercentage" : 1,
+  "attack" : 20,
+  "defense" : 20,
+  "magic" : 20,
+  "resistance" : 20,
+  "dexterity" : 20,
+  "foresight" : 10,
+  "luckBonusPercentage" : 50,
+  "viewDistancePercentage" : 20
+}, {
+  "url" : "https://playorna.com/codex/items/unfelled-konqord/",
+  "name" : "Unfelled Konqord",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "wardPercentage" : 1,
+  "attack" : 20,
+  "defense" : 20,
+  "magic" : 20,
+  "resistance" : 20,
+  "dexterity" : 20,
+  "foresight" : 10,
+  "luckBonusPercentage" : 50,
+  "viewDistancePercentage" : 20
+}, {
+  "url" : "https://playorna.com/codex/items/verricks-ring/",
+  "name" : "Verrick's Ring",
+  "tier" : 7,
+  "warrior" : false,
+  "thief" : false,
+  "mage" : true,
+  "summoner" : false,
+  "place" : "Accessory",
+  "rarity" : "Common",
+  "twoHanded" : false,
+  "foresight" : 20,
+  "droppedBy" : [ {
+    "name" : "Enlightened King",
+    "url" : "https://playorna.com/codex/bosses/enlightened-king/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/vritra-charm/",
+  "name" : "Vritra Charm",
+  "tier" : 6,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "immunities" : [ "Paralyzed", "Stunned", "Petrified", "Drakeblight" ],
+  "droppedBy" : [ {
+    "name" : "Vritra the Steadfast",
+    "url" : "https://playorna.com/codex/bosses/vritra-the-steadfast/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/vulcan-charm/",
+  "name" : "Vulcan Charm",
+  "tier" : 8,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "mana" : 180,
+  "magic" : 48,
+  "droppedBy" : [ {
+    "name" : "Mimic King of Kings",
+    "url" : "https://playorna.com/codex/raids/mimic-king-of-kings/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool/"
+  }, {
+    "name" : "The Fool",
+    "url" : "https://playorna.com/codex/raids/the-fool-ef1c6cb2/"
+  }, {
+    "name" : "The Mightiest Mimic",
+    "url" : "https://playorna.com/codex/raids/the-mightiest-mimic/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/waistguard-of-cerus/",
+  "name" : "Waistguard of Cerus",
+  "tier" : 9,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Famed",
+  "twoHanded" : false,
+  "element" : "Fire",
+  "hp" : 200,
+  "immunities" : [ "Burning" ],
+  "droppedBy" : [ {
+    "name" : "Ferocious Cerus",
+    "url" : "https://playorna.com/codex/raids/ferocious-cerus/"
+  }, {
+    "name" : "Furious Cerus",
+    "url" : "https://playorna.com/codex/raids/furious-cerus/"
+  } ]
+}, {
+  "url" : "https://playorna.com/codex/items/waking-pendant/",
+  "name" : "Waking Pendant",
+  "tier" : 4,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Rare",
+  "twoHanded" : false,
+  "immunities" : [ "Asleep" ]
+}, {
+  "url" : "https://playorna.com/codex/items/ymir-vritra-charm/",
+  "name" : "Ymir Vritra Charm",
+  "tier" : 10,
+  "warrior" : true,
+  "thief" : true,
+  "mage" : true,
+  "summoner" : true,
+  "place" : "Accessory",
+  "rarity" : "Legendary",
+  "twoHanded" : false,
+  "hp" : 220,
+  "mana" : 220,
+  "immunities" : [ "Paralyzed", "Stunned", "Petrified", "Drakeblight" ],
+  "droppedBy" : [ {
+    "name" : "Ymir Amphiptere",
+    "url" : "https://playorna.com/codex/bosses/ymir-amphiptere/"
+  } ]
+} ]
