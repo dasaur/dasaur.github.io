@@ -1,5 +1,5 @@
 window.onload = loadPage({
-    url: '/orna-codex/data/weapons.json',
+    url: '/orna-codex/data/accessories.json',
     filters : [
         {
             name: 'tierMin',
@@ -14,24 +14,6 @@ window.onload = loadPage({
             component: () => tierFilter(),
             addSeparator: true,
         },
-        {
-            name: 'canEquip',
-            f: (codexEntry, filterValue) => (filterValue.includes('w') && codexEntry.warrior) ||
-                (filterValue.includes('m') && codexEntry.mage) ||
-                (filterValue.includes('t') && codexEntry.thief) ||
-                (filterValue.includes('s') && codexEntry.summoner),
-            label: 'W/T/M/S',
-            component: () => canEquipChecks(),
-            getComponentValue: getCanEquipChecks,
-            setComponentValue: setCanEquipChecks,
-            addSeparator: true,
-        },
-        {
-            name: 'twoHanded',
-            f: (codexEntry, filterValue) => filterValue == codexEntry.twoHanded,
-            label: '2H ',
-            component: () => booleanFilter(),
-        },
     ],
     sortOptions : [
         {
@@ -43,8 +25,16 @@ window.onload = loadPage({
             f: (x, y) => (y.attack | 0) - (x.attack | 0) || x.name.localeCompare(y.city),
         },
         {
+            name: 'defense',
+            f: (x, y) => (y.defense | 0) - (x.defense | 0) || x.name.localeCompare(y.city),
+        },
+        {
             name: 'magic',
             f: (x, y) => (y.magic | 0) - (x.magic | 0) || x.name.localeCompare(y.city),
+        },
+        {
+            name: 'resistance',
+            f: (x, y) => (y.resistance | 0) - (x.resistance | 0) || x.name.localeCompare(y.city),
         },
     ],
     columns: [
@@ -57,11 +47,6 @@ window.onload = loadPage({
             f: (codexEntry, tableCell) => number(tableCell, codexEntry.tier),
         },
         {
-            name: 'W/T/M/S',
-            f: (codexEntry, tableCell) => checks(tableCell,
-                [codexEntry.warrior, codexEntry.thief, codexEntry.mage, codexEntry.summoner]),
-        },
-        {
             name: 'Power',
             f: (codexEntry, tableCell) => number(tableCell, power(codexEntry)),
         },
@@ -70,24 +55,20 @@ window.onload = loadPage({
             f: (codexEntry, tableCell) => number(tableCell, codexEntry.attack),
         },
         {
+            name: 'Defense',
+            f: (codexEntry, tableCell) => number(tableCell, codexEntry.defense),
+        },
+        {
             name: 'Magic',
             f: (codexEntry, tableCell) => number(tableCell, codexEntry.magic),
         },
         {
-            name: 'Adornments',
-            f: (codexEntry, tableCell) => number(tableCell, codexEntry.adornmentSlots),
-        },
-        {
-            name: '2H',
-            f: (codexEntry, tableCell) => check(tableCell, codexEntry.twoHanded),
-        },
-        {
-            name: 'Element',
-            f: (codexEntry, tableCell) => text(tableCell, codexEntry.element),
+            name: 'Resistance',
+            f: (codexEntry, tableCell) => number(tableCell, codexEntry.resistance),
         },
     ],
 })
 
 function power(codexEntry) {
-    return (codexEntry.attack | 0) + (codexEntry.magic | 0)
+    return (codexEntry.attack | 0) + (codexEntry.defense | 0) + (codexEntry.magic | 0) + (codexEntry.resistance | 0)
 }
