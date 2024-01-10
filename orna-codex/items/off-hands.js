@@ -58,6 +58,11 @@ window.onload = loadPage({
             f: (codexEntry, tableCell) => number(tableCell, codexEntry.tier),
         },
         {
+            name: 'W/T/M/S',
+            f: (codexEntry, tableCell) => checks(tableCell,
+                [codexEntry.warrior, codexEntry.thief, codexEntry.mage, codexEntry.summoner]),
+        },
+        {
             name: 'Power',
             f: (codexEntry, tableCell) => number(tableCell, power(codexEntry)),
         },
