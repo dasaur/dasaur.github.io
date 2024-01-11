@@ -24,7 +24,7 @@ body {
   box-sizing: border-box;
 }
 
-.filters, .sort {
+.slot, .filters, .sort {
   padding: 0 0 10px 0;
 }
 

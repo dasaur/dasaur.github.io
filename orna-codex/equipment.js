@@ -1,17 +1,132 @@
 const equipmentClasses = ['w', 't', 'm', 's']
+
+const slotParam = 'slot'
+
 const sortParam = 'sort'
 
-async function loadPage(config) {
+window.onload = (event) => {
+    var slotValue = new URLSearchParams(window.location.search).get(slotParam) || ''
+    if (slotValue == '') {
+        const params = new URLSearchParams(window.location.search.slice(1))
+        params.set(slotParam, 'weapons')
+        const redirect = `${window.location.pathname}?${params}${window.location.hash}`
+        window.location.href = redirect
+        return
+    }
+    loadPage(slotValue)
+}
+
+function loadPage(slotValue) {
     const page = document.createElement('div')
     page.classList = 'page'
     document.body.appendChild(page)
 
-    loadFilters(page, config.filters || [])
-    loadSort(page, config.sortOptions || [])
-    loadTable(page, config)
+    const filters = getFilters(slotValue)
+    const sortOptions = getSortOptions(slotValue)
+
+    loadSlotSelect(page, slotValue)
+    loadFilters(page, filters || [])
+    loadSort(page, sortOptions)
+    loadTable(page, slotValue, filters, sortOptions)
 }
 
-async function loadFilters(page, filters) {
+function getFilters(slotValue) {
+    const filters = []
+    filters.push({
+        name: 'tierMin',
+        f: (codexEntry, filterValue) => filterValue <= codexEntry.tier,
+        label: 'Tier ',
+        component: () => tierFilter(),
+        omitSeparator: true,
+    })
+    filters.push({
+        name: 'tierMax',
+        f: (codexEntry, filterValue) => filterValue >= codexEntry.tier,
+        label: ' to ',
+        component: () => tierFilter(),
+    })
+    if (slotValue != 'accessories') filters.push({
+        name: 'canEquip',
+        f: (codexEntry, filterValue) => (filterValue.includes('w') && codexEntry.warrior) ||
+            (filterValue.includes('m') && codexEntry.mage) ||
+            (filterValue.includes('t') && codexEntry.thief) ||
+            (filterValue.includes('s') && codexEntry.summoner),
+        label: 'W/T/M/S',
+        component: () => canEquipChecks(),
+        getComponentValue: getCanEquipChecks,
+        setComponentValue: setCanEquipChecks,
+    })
+    if (slotValue == 'weapons') filters.push({
+        name: 'twoHanded',
+        f: (codexEntry, filterValue) => filterValue == codexEntry.twoHanded,
+        label: '2H ',
+        component: () => booleanFilter(),
+    })
+    return filters
+}
+
+function getSortOptions(slotValue) {
+    const sortOptions = []
+    sortOptions.push({
+        name: 'power',
+        f: (x, y) => power(y) - power(x) || x.name.localeCompare(y.city),
+    })
+    sortOptions.push({
+        name: 'attack',
+        f: (x, y) => (y.attack | 0) - (x.attack | 0) || x.name.localeCompare(y.city),
+    })
+    sortOptions.push({
+        name: 'defense',
+        f: (x, y) => (y.defense | 0) - (x.defense | 0) || x.name.localeCompare(y.city),
+    })
+    sortOptions.push({
+        name: 'magic',
+        f: (x, y) => (y.magic | 0) - (x.magic | 0) || x.name.localeCompare(y.city),
+    })
+    sortOptions.push({
+        name: 'resistance',
+        f: (x, y) => (y.resistance | 0) - (x.resistance | 0) || x.name.localeCompare(y.city),
+    })
+    sortOptions.push({
+        name: 'resistance',
+        f: (x, y) => (y.resistance | 0) - (x.resistance | 0) || x.name.localeCompare(y.city),
+    })
+    return sortOptions
+}
+
+function loadSlotSelect(page, slotValue) {
+const slotDiv = document.createElement('div')
+    slotDiv.classList = slotParam
+
+    const label = document.createElement('label')
+    label.innerHTML = 'Slot'
+    slotDiv.appendChild(label)
+
+    var equipmentType = mapSelect(new Map()
+        .set('weapons', "Weapons")
+        .set('off-hands', "Off-hand")
+        .set('heads', "Head")
+        .set('armors', "Armor")
+        .set('legs', "Legs")
+        .set('accessories', "Accessories"))
+    equipmentType.removeChild(equipmentType.childNodes[0])
+    slotDiv.appendChild(equipmentType)
+
+    equipmentType.value = slotValue
+    equipmentType.addEventListener('change', function() {
+        const value = equipmentType.value
+        const params = new URLSearchParams(window.location.search.slice(1))
+        if (value == '')
+            params.delete(slotParam)
+        else
+            params.set(slotParam, value)
+        const redirect = `${window.location.pathname}?${params}${window.location.hash}`
+        window.location.href = redirect
+    })
+
+    page.appendChild(slotDiv)}
+
+function loadFilters(page, filters) {
     if (filters.size == 0) return
 
     const div = document.createElement('div')
@@ -47,7 +162,7 @@ async function loadFilters(page, filters) {
 
         div.appendChild(filterDiv)
 
-        if (filter.addSeparator)
+        if (!filter.omitSeparator)
             div.appendChild(verticalSeparator())
     })
 
@@ -64,7 +179,7 @@ async function loadSort(page, sortOptions) {
     label.innerHTML = 'Sort by '
     div.appendChild(label)
 
-    const select = listFilter(sortOptions.map(sortOption => sortOption.name))
+    const select = listSelect(sortOptions.map(sortOption => sortOption.name))
     select.value = new URLSearchParams(window.location.search).get(sortParam) || ''
     select.addEventListener('change', function() {
         const value = this.value
@@ -81,19 +196,66 @@ async function loadSort(page, sortOptions) {
     page.appendChild(div)
 }
 
-async function loadTable(page, config) {
+async function loadTable(page, slotValue, filters, sortOptions) {
+    const columns = getColumns(slotValue)
     const div = document.createElement('div')
     div.classList = 'table'
     const table = document.createElement('table')
-    createHeaderRow(table, config.columns)
+    createHeaderRow(table, columns)
     const tableBody = document.createElement('tbody')
     table.appendChild(tableBody)
     div.appendChild(table)
     page.appendChild(div)
-    var codex = await loadCodex(config.url)
-    codex = filterCodex(codex, config.filters || [])
-    codex = sortCodex(codex, config.sortOptions || [])
-    codex.forEach(codexEntry => createBodyRow(tableBody, codexEntry, config.columns))
+    var codex = await loadCodex(getUrl(slotValue))
+    codex = filterCodex(codex, filters)
+    codex = sortCodex(codex, sortOptions)
+    codex.forEach(codexEntry => createBodyRow(tableBody, codexEntry, columns))
+}
+
+function getColumns(slotValue) {
+    var columns = []
+    columns.push({
+        name: 'Name',
+        f: (codexEntry, tableCell) => link(tableCell, codexEntry.name, codexEntry.url),
+    })
+    columns.push({
+        name: 'Tier',
+        f: (codexEntry, tableCell) => number(tableCell, codexEntry.tier),
+    })
+    if (slotValue != 'accessories') columns.push({
+        name: 'W/T/M/S',
+        f: (codexEntry, tableCell) => checks(tableCell,
+            [codexEntry.warrior, codexEntry.thief, codexEntry.mage, codexEntry.summoner]),
+    })
+    columns.push({
+        name: 'Power',
+        f: (codexEntry, tableCell) => number(tableCell, power(codexEntry, slotValue)),
+    })
+    columns.push({
+        name: 'Attack',
+        f: (codexEntry, tableCell) => number(tableCell, codexEntry.attack),
+    })
+    columns.push({
+        name: 'Defense',
+        f: (codexEntry, tableCell) => number(tableCell, codexEntry.defense),
+    })
+    columns.push({
+        name: 'Magic',
+        f: (codexEntry, tableCell) => number(tableCell, codexEntry.magic),
+    })
+    columns.push({
+        name: 'Resistance',
+        f: (codexEntry, tableCell) => number(tableCell, codexEntry.resistance),
+    })
+    if (slotValue != 'accessories') columns.push({
+        name: 'Adornments',
+        f: (codexEntry, tableCell) => number(tableCell, codexEntry.adornmentSlots),
+    })
+    return columns
+}
+
+function getUrl(slotValue) {
+    return `/orna-codex/data/${slotValue}.json`
 }
 
 function createHeaderRow(table, columns) {
@@ -140,7 +302,7 @@ function createBodyRow(tableBody, codexEntry, columns) {
     tableBody.appendChild(tableRow)
 }
 
-function mapFilter(map) {
+function mapSelect(map) {
     const select = document.createElement('select')
     const option = document.createElement('option')
     option.value = ''
@@ -155,20 +317,14 @@ function mapFilter(map) {
     return select
 }
 
-function listFilter(list) {
+function listSelect(list) {
     const map = new Map()
     list.forEach(element => map.set(element, element))
-    return mapFilter(map)
-}
-
-function objectFilter(filter) {
-    const map = new Map()
-    filter.forEach(element => map.set(element.value, element.name))
-    return mapFilter(new Map(Object.entries(filter)))
+    return mapSelect(map)
 }
 
 function tierFilter() {
-    return listFilter([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ])
+    return listSelect([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ])
 }
 
 function canEquipChecks() {
@@ -204,7 +360,7 @@ function setCanEquipChecks(component, filterValue) {
 }
 
 function booleanFilter() {
-    return mapFilter(new Map()
+    return mapSelect(new Map()
                 .set(0, 'N')
                 .set(1, 'Y'))
 }
@@ -249,4 +405,8 @@ function checks(element, booleans) {
 
 function checkText(boolean) {
     return boolean ? '\u2611' : '\u2610'
+}
+
+function power(codexEntry) {
+    return (codexEntry.attack | 0) + (codexEntry.defense | 0) + (codexEntry.magic | 0) + (codexEntry.resistance | 0)
 }
