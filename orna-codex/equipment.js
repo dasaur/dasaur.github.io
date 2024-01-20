@@ -4,6 +4,12 @@ const slotParam = 'slot'
 
 const sortParam = 'sort'
 
+const isCacheSupported = 'caches' in window
+if (isCacheSupported)
+    caches.open('orna-codex').then(cache => {
+        cache.add('styles/MerriweatherSans-Light.ttf')
+    })
+
 window.onload = (event) => {
     var slotValue = new URLSearchParams(window.location.search).get(slotParam) || ''
     if (slotValue == '') {
@@ -98,8 +104,11 @@ function loadSlotSelect(page, slotValue) {
 const slotDiv = document.createElement('div')
     slotDiv.classList = slotParam
 
+    var slotId = 'slot'
+
     const label = document.createElement('label')
     label.innerHTML = 'Slot'
+    label.htmlFor = slotId
     slotDiv.appendChild(label)
 
     var equipmentType = mapSelect(new Map()
@@ -109,6 +118,7 @@ const slotDiv = document.createElement('div')
         .set('armors', "Armor")
         .set('legs', "Legs")
         .set('accessories', "Accessories"))
+    equipmentType.id = slotId
     equipmentType.removeChild(equipmentType.childNodes[0])
     slotDiv.appendChild(equipmentType)
 
@@ -138,9 +148,11 @@ function loadFilters(page, filters) {
 
         const label = document.createElement('label')
         label.innerHTML = filter.label
+        label.htmlFor = filter.name
         filterDiv.appendChild(label)
 
         const component = filter.component()
+        component.id = filter.name
         var setComponentValue = filter.setComponentValue
         if (!setComponentValue)
             setComponentValue = (component, filterValue) => component.value = filterValue
@@ -173,13 +185,15 @@ async function loadSort(page, sortOptions) {
     if (sortOptions.size == 0) return
 
     const div = document.createElement('div')
-    div.classList = 'sort'
+    div.classList = sortParam
 
     const label = document.createElement('label')
     label.innerHTML = 'Sort by '
+    label.htmlFor = sortParam
     div.appendChild(label)
 
     const select = listSelect(sortOptions.map(sortOption => sortOption.name))
+    select.id = sortParam
     select.value = new URLSearchParams(window.location.search).get(sortParam) || ''
     select.addEventListener('change', function() {
         const value = this.value
@@ -329,13 +343,40 @@ function tierFilter() {
 
 function canEquipChecks() {
     const div = document.createElement('div')
-    div.classList = 'canEquip'
     for (e in equipmentClasses) {
+        const label = document.createElement('label')
+        const checkId = getCheckId(equipmentClasses[e])
+        label.innerHTML = getFullName(equipmentClasses[e])
+        label.htmlFor = checkId
+        label.classList = 'hide'
+        div.appendChild(label)
         const check = document.createElement('input')
         check.setAttribute('type', 'checkbox')
+        check.id = checkId
+        check.classList = 'canEquip'
         div.appendChild(check)
     }
     return div
+}
+
+function getCheckId(equipmentClass) {
+    switch (equipmentClass) {
+        case 'w': return 'warrior'
+        case 't': return 'thief'
+        case 'm': return 'mage'
+        case 's': return 'summoner'
+        default: return null
+    }
+}
+
+function getFullName(equipmentClass) {
+    switch (equipmentClass) {
+        case 'w': return 'Warrior'
+        case 't': return 'Thief'
+        case 'm': return 'Mage'
+        case 's': return 'Summoner / Valhallan'
+        default: return null
+    }
 }
 
 function getCanEquipChecks(component) {

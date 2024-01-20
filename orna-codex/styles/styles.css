@@ -2,6 +2,7 @@
     font-family: Merriweather;
     src: url('MerriweatherSans-Light.ttf');
     font-weight: 400;
+    font-display: swap;
 }
 
 * {
@@ -32,9 +33,18 @@ label, select {
   padding: 5px;
 }
 
+.hide {
+  display:none;
+}
+
 .filters, .filter, .sort {
   display: flex;
   align-items: center;
+}
+
+.canEquip {
+  width: 23px;
+  height: 23px;
 }
 
 .vl {
