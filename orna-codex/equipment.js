@@ -381,8 +381,8 @@ function getFullName(equipmentClass) {
 
 function getCanEquipChecks(component) {
     var value = ''
-    for (var i = 0; i < component.children.length; i++) {
-        const check = component.children[i]
+    for (var i = 0; i < equipmentClasses.length; i++) {
+        const check = component.children[i * 2 + 1]
         const canEquip = equipmentClasses[i];
         if (check.checked)
             value += canEquip
@@ -392,8 +392,8 @@ function getCanEquipChecks(component) {
 
 function setCanEquipChecks(component, filterValue) {
     filterValue = filterValue || ''
-    for (var i = 0; i < component.children.length; i++) {
-        const check = component.children[i]
+    for (var i = 0; i < equipmentClasses.length; i++) {
+        const check = component.children[i * 2 + 1]
         const canEquip = equipmentClasses[i];
         const value = filterValue.indexOf(canEquip) >= 0
         check.checked = value
